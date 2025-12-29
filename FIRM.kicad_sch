@@ -14968,7 +14968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMC5983MA:PQFN50P300X300X100-16N"
+		(property "Footprint" "sensors:IC_MMC5983MA"
 			(at 379.984 122.428 0)
 			(effects
 				(font
@@ -25073,7 +25073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICM-45686:IC_ICM-45686"
+		(property "Footprint" "sensors:IC_ICM-45686"
 			(at 274.828 68.58 0)
 			(effects
 				(font
@@ -25816,7 +25816,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e9860bd0-bd7e-44fd-8d6b-97b7bc618e03")
 		(property "Reference" "J2"
 			(at 96.52 171.45 0)
@@ -25834,7 +25833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM3CS-SF:HRS_DM3CS-SF"
+		(property "Footprint" "connectors:HRS_DM3CS-SF"
 			(at 96.52 176.53 0)
 			(effects
 				(font
