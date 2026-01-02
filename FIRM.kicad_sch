@@ -7209,6 +7209,18 @@
 		(uuid "66b03f82-594d-4e99-a2b2-bef4847c5356")
 	)
 	(junction
+		(at 49.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "699fa482-32d5-4d27-b5ae-e8fe1ead599f")
+	)
+	(junction
+		(at 36.83 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "732f4dc3-811e-4553-8152-4486a7399266")
+	)
+	(junction
 		(at 109.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7317,6 +7329,12 @@
 		(uuid "a26b4c4e-948b-438e-8e90-34c1c30007d6")
 	)
 	(junction
+		(at 49.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a57b6910-114a-4f1d-84c2-b76b7acc9151")
+	)
+	(junction
 		(at 327.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7333,6 +7351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bacea83f-b4f2-4805-aa85-a19945d7fb69")
+	)
+	(junction
+		(at 36.83 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbede273-c9c0-4569-90f9-4a12af10ee8f")
 	)
 	(junction
 		(at 142.24 36.83)
@@ -7821,6 +7845,16 @@
 			(type default)
 		)
 		(uuid "0e48adf3-dd4e-4bc5-a5f9-94e5825fb98c")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8c4b61-fd60-4e41-b17d-f1932a5f9c0b")
 	)
 	(wire
 		(pts
@@ -8454,6 +8488,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 45.72) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376d10e3-58a2-46c8-bb49-62d89eab3bba")
+	)
+	(wire
+		(pts
 			(xy 74.93 196.85) (xy 83.82 196.85)
 		)
 		(stroke
@@ -8681,6 +8725,16 @@
 			(type default)
 		)
 		(uuid "42f5e7d4-b7bc-4446-b99a-c805207b2605")
+	)
+	(wire
+		(pts
+			(xy 49.53 36.83) (xy 49.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cca64a-704b-4430-9f63-23f21a53b985")
 	)
 	(wire
 		(pts
@@ -9264,7 +9318,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 36.83) (xy 60.96 36.83)
+			(xy 22.86 36.83) (xy 36.83 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9551,6 +9605,16 @@
 			(type default)
 		)
 		(uuid "772352fc-8209-421d-9df3-7125e0f99d8b")
+	)
+	(wire
+		(pts
+			(xy 49.53 46.99) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7735ea29-a827-4e66-bc4d-771cca060cdb")
 	)
 	(wire
 		(pts
@@ -9994,6 +10058,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 45.72) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941541fc-457e-4ddd-88f5-467505dd39e7")
+	)
+	(wire
+		(pts
 			(xy 127 111.76) (xy 138.43 111.76)
 		)
 		(stroke
@@ -10394,6 +10468,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 36.83) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b105c493-579c-4069-b57c-679ec4a30d06")
+	)
+	(wire
+		(pts
 			(xy 41.91 92.71) (xy 41.91 95.25)
 		)
 		(stroke
@@ -10604,7 +10688,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 46.99) (xy 60.96 46.99)
+			(xy 22.86 46.99) (xy 36.83 46.99)
 		)
 		(stroke
 			(width 0)
@@ -11124,6 +11208,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 36.83) (xy 49.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7981394-77e7-4ae4-9f28-5cf34e32a7ec")
+	)
+	(wire
+		(pts
 			(xy 63.5 68.58) (xy 86.36 68.58)
 		)
 		(stroke
@@ -11211,6 +11305,16 @@
 			(type default)
 		)
 		(uuid "ee656653-5a48-4905-9137-ea867ac0b1ee")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefca33a-3d0f-4f0f-a7df-22b616287ecc")
 	)
 	(wire
 		(pts
@@ -19470,6 +19574,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 36.83 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "945e7a77-ecb5-4e85-aab9-a082c3478944")
+		(property "Reference" "C3"
+			(at 40.64 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 40.64 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 37.7952 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1590"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e8051f-a21f-4432-9022-e5d7617ac2e2")
+		)
+		(pin "2"
+			(uuid "7071ced1-bbb2-4b35-a5b6-4a811999e74d")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 327.66 27.94 180)
 		(unit 1)
@@ -20380,6 +20572,94 @@
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c7910e-699b-43f1-9773-df14a6e608c6")
+		(property "Reference" "C6"
+			(at 53.34 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 50.4952 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1590"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09adf408-2965-4005-968c-f4692fb2b4c4")
+		)
+		(pin "2"
+			(uuid "b1fdd212-dc12-41b6-aa70-a1b4b9509751")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "C6")
 					(unit 1)
 				)
 			)
