@@ -1,0 +1,108 @@
+(footprint "Crystal_ECS-.327-6-12RR-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://txccrystal.com/images/pdf/9ht11.pdf")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "3f03b6ad-4fef-46d0-a496-1c7ae30d7fa0")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Value" "Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "3b844743-50a8-4b90-be61-c9a5517ebee1")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04260aa0-3f82-4848-85ac-0bbbdf3193e2")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab422b9b-3d2f-4644-8893-8fae58c43dc4")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.95)
+		(end -1.3 0.85)
+		(stroke (width 0.12) (type solid))
+		(layer "F.SilkS")
+		(uuid "1f8153ad-e80f-42a0-b772-7089d068b72c")
+	)
+	(fp_line
+		(start -1.3 0.85)
+		(end 1.23 0.85)
+		(stroke (width 0.12) (type solid))
+		(layer "F.SilkS")
+		(uuid "95c54aa9-b295-4839-9114-49e2fe1f3522")
+	)
+	(fp_line
+		(start 1.26 -0.95)
+		(end -1.3 -0.95)
+		(stroke (width 0.12) (type solid))
+		(layer "F.SilkS")
+		(uuid "aebe8414-8096-4912-a822-7986eeb92d0e")
+	)
+	(fp_rect
+		(start -1.5 -1.1)
+		(end 1.5 1.1)
+		(stroke (width 0.05) (type solid))
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b9bad979-9e81-4824-8670-c277490bd131")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 -0.75) (xy -1.1 0.45) (xy -0.9 0.65) (xy 1.1 0.65) (xy 1.1 -0.75)
+		)
+		(stroke (width 0.1) (type solid))
+		(fill no)
+		(layer "F.Fab")
+		(uuid "82fd3f5a-b840-4282-bb2b-9970cb75ffe7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b3e54c3d-f09d-4b4e-bcfc-c1fda535f698")
+		(effects
+			(font (size 0.5 0.5) (thickness 0.08))
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 -0.05)
+		(size 0.8 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dfd49101-852e-413f-a797-4c6e4214835c")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 -0.05)
+		(size 0.8 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "62b6bde3-e13e-49ac-928a-347a6d5f96cb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)
