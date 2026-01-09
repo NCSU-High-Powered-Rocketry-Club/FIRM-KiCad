@@ -13055,6 +13055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "256-W25Q128JVSIQTRCT-ND"
+			(at 60.96 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3401a16d-f2cd-4de8-83b4-9998a34947dc")
 		)
@@ -13217,7 +13226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 87.63 41.91 0)
 			(effects
 				(font
@@ -13371,7 +13380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 36.83 41.91 0)
 			(effects
 				(font
@@ -13525,7 +13534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-100KHRCT-ND"
+		(property "Digikey PN" "P100KLCT-ND"
 			(at 30.48 66.04 0)
 			(effects
 				(font
@@ -13678,7 +13687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "490-18214-1-ND"
+		(property "Digikey PN" "1276-1451-1-ND"
 			(at 340.36 224.79 0)
 			(effects
 				(font
@@ -13926,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 22.098 62.23 0)
 			(effects
 				(font
@@ -13971,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 19.05 60.96 0)
 			(effects
 				(font
@@ -14124,7 +14133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 285.75 105.41 0)
 			(effects
 				(font
@@ -14359,7 +14368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "160-1428-1-ND"
+		(property "Digikey PN" "160-LTST-C281KSKTCT-ND"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -15107,7 +15116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 64.77 195.58 0)
 			(effects
 				(font
@@ -15608,7 +15617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "P3.3KDCCT-ND"
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -15902,7 +15911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -16119,7 +16128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -16206,7 +16215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-1767-1-ND"
+		(property "Digikey PN" "490-GJM1555C1H140FB01DCT-ND"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -16249,7 +16258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 146.05 43.1799 0)
 			(effects
 				(font
@@ -16294,7 +16303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 142.24 41.91 0)
 			(effects
 				(font
@@ -16447,7 +16456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 54.61 175.26 0)
 			(effects
 				(font
@@ -16540,7 +16549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "160-1422-1-ND"
+		(property "Digikey PN" "160-LTST-C281KRKTCT-ND"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -16766,7 +16775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-330HRCT-ND"
+		(property "Digikey PN" "311-330LRCT-ND"
 			(at 177.8 105.41 90)
 			(effects
 				(font
@@ -16996,7 +17005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "P3.3KDCCT-ND"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -17300,7 +17309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-1767-1-ND"
+		(property "Digikey PN" "490-GJM1555C1H140FB01DCT-ND"
 			(at 63.5 90.17 0)
 			(effects
 				(font
@@ -17436,6 +17445,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 31.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "13-YC104-FR-0710KLCT-ND"
 			(at 31.75 245.11 0)
 			(effects
 				(font
@@ -17617,7 +17635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "P1.2KDBCT-ND"
+		(property "Digikey PN" "311-1.2KJRCT-ND"
 			(at 322.58 208.28 0)
 			(effects
 				(font
@@ -17975,7 +17993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-1.50KHRCT-ND"
+		(property "Digikey PN" "311-1.50KLRCT-ND"
 			(at 177.8 128.27 90)
 			(effects
 				(font
@@ -18128,7 +18146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "1276-2134-1-ND"
+		(property "Digikey PN" "311-3714-1-ND"
 			(at 39.37 130.81 0)
 			(effects
 				(font
@@ -18413,7 +18431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 24.13 175.26 0)
 			(effects
 				(font
@@ -18499,7 +18517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "490-18214-1-ND"
+		(property "Digikey PN" "1276-1451-1-ND"
 			(at 353.06 138.43 90)
 			(effects
 				(font
@@ -19109,7 +19127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "541-100HCT-ND"
+		(property "Digikey PN" "P100LCT-ND"
 			(at 379.73 40.64 90)
 			(effects
 				(font
@@ -19491,7 +19509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "490-4520-1-ND"
+		(property "Digikey PN" "490-10012-1-ND"
 			(at 73.66 130.81 0)
 			(effects
 				(font
@@ -19710,7 +19728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "587-1241-1-ND"
+		(property "Digikey PN" "1276-1067-1-ND"
 			(at 172.72 41.91 0)
 			(effects
 				(font
@@ -19795,7 +19813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 327.66 27.94 90)
 			(effects
 				(font
@@ -19883,7 +19901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C103K5RACTUCT-ND"
+		(property "Digikey PN" "490-1313-1-ND"
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -20455,7 +20473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "1276-2134-1-ND"
+		(property "Digikey PN" "311-3714-1-ND"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -20542,7 +20560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-100KHRCT-ND"
+		(property "Digikey PN" "P100KLCT-ND"
 			(at 243.84 222.25 0)
 			(effects
 				(font
@@ -20714,7 +20732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 46.99 175.26 0)
 			(effects
 				(font
@@ -20969,7 +20987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -21138,7 +21156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "160-1423-1-ND"
+		(property "Digikey PN" "160-LTST-C281KGKTCT-ND"
 			(at 326.39 201.93 0)
 			(effects
 				(font
@@ -21226,7 +21244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 62.23 175.26 0)
 			(effects
 				(font
@@ -21398,7 +21416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -21485,7 +21503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "490-18214-1-ND"
+		(property "Digikey PN" "1276-1451-1-ND"
 			(at 299.72 218.44 0)
 			(effects
 				(font
@@ -21714,7 +21732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-2.20KHRCT-ND"
+		(property "Digikey PN" "311-47.0KLRCT-ND"
 			(at 31.75 175.26 0)
 			(effects
 				(font
@@ -22319,7 +22337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "160-1645-1-ND"
+		(property "Digikey PN" "160-LTST-C281TBKTCT-ND"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -22481,7 +22499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 320.04 27.94 90)
 			(effects
 				(font
@@ -22843,7 +22861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 241.3 102.87 0)
 			(effects
 				(font
@@ -23004,7 +23022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-5.10KHRCT-ND"
+		(property "Digikey PN" "P5.1KDCCT-ND"
 			(at 394.97 193.04 90)
 			(effects
 				(font
@@ -23401,7 +23419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-5.10KHRCT-ND"
+		(property "Digikey PN" "P5.1KDCCT-ND"
 			(at 388.62 190.5 90)
 			(effects
 				(font
@@ -23555,7 +23573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "587-1241-1-ND"
+		(property "Digikey PN" "1276-1067-1-ND"
 			(at 350.52 148.59 0)
 			(effects
 				(font
@@ -23739,7 +23757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "10m"
 			(at 270.002 120.65 0)
 			(effects
 				(font
@@ -23767,6 +23785,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "P19181CT-ND"
 			(at 267.97 119.38 0)
 			(effects
 				(font
@@ -23985,7 +24012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 73.66 41.91 0)
 			(effects
 				(font
@@ -24073,7 +24100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "1276-1044-1-ND"
+		(property "Digikey PN" "1276-1482-1-ND"
 			(at 22.86 41.91 0)
 			(effects
 				(font
@@ -24225,7 +24252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "P1.2KDBCT-ND"
+		(property "Digikey PN" "311-1.2KJRCT-ND"
 			(at 177.8 116.84 90)
 			(effects
 				(font
@@ -24587,6 +24614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-23770-1-ND"
+			(at 297.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d1c36259-1efe-47fc-a91b-18246999a52e")
 		)
@@ -24890,7 +24926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 254 76.2 0)
 			(effects
 				(font
@@ -24978,7 +25014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "490-4520-1-ND"
+		(property "Digikey PN" "490-10012-1-ND"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -25466,7 +25502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -25613,6 +25649,15 @@
 		)
 		(property "Description" "Micropower 3-Axis Accelerometer, Thermometer, 2/4/8g range, SPI, LGA-16"
 			(at 234.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "505-ADXL371BCCZ-RL7CT-ND"
+			(at 234.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25878,7 +25923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "1276-1168-1-ND"
+		(property "Digikey PN" "490-1300-1-ND"
 			(at 322.58 222.25 0)
 			(effects
 				(font
@@ -25966,7 +26011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 264.16 76.2 0)
 			(effects
 				(font
