@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.8,
-          "width": 1.4
+          "drill": 1.2,
+          "height": 1.2,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -512,11 +512,35 @@
     "netclass_patterns": [
       {
         "netclass": "Bigger",
-        "pattern": "GND"
+        "pattern": "VBUS"
       },
       {
         "netclass": "Bigger",
         "pattern": "3.3V"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "VSENS_IN"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "VSENS_OUT"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Bigger",
+        "pattern": "MAG_INT"
       }
     ]
   },

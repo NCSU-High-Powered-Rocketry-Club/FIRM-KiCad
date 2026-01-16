@@ -7219,7 +7219,7 @@
 	(text_box "Reset & Boot"
 		(exclude_from_sim no)
 		(at 360.68 15.24 0)
-		(size 43.18 35.56)
+		(size 43.18 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -10242,16 +10242,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 40.64) (xy 386.08 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9001b813-c7d8-43b6-a636-1af932379766")
-	)
-	(wire
-		(pts
 			(xy 127 88.9) (xy 166.37 88.9)
 		)
 		(stroke
@@ -11542,16 +11532,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 40.64) (xy 377.19 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5071f65-fdcb-4677-93a8-a1395625d083")
-	)
-	(wire
-		(pts
 			(xy 127 132.08) (xy 138.43 132.08)
 		)
 		(stroke
@@ -11899,16 +11879,6 @@
 			(justify left bottom)
 		)
 		(uuid "35b45798-fd66-4481-85b1-ac5c7caebd91")
-	)
-	(label "BOOT0"
-		(at 367.03 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36358d78-4e14-440c-9392-e3fecd82812e")
 	)
 	(label "SDIO_CMD"
 		(at 73.66 189.23 0)
@@ -16111,81 +16081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 386.08 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "5191423d-decc-4b9f-8978-c8f844d5e56b")
-		(property "Reference" "TP25"
-			(at 391.16 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BOOT0 Pad"
-			(at 391.16 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors:smd_test_pads_1mm"
-			(at 386.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 386.08 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" ""
-			(at 386.08 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fca269fe-30db-4019-8997-fa53a28df409")
-		)
-		(instances
-			(project ""
-				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 177.8 105.41 270)
 		(unit 1)
@@ -18239,92 +18134,6 @@
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 379.73 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "861fd4b9-585b-43b5-94a0-5d5b005d73ec")
-		(property "Reference" "R19"
-			(at 379.73 35.56 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 379.73 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 379.73 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 379.73 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C177347"
-			(at 379.73 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" "P100LCT-ND"
-			(at 379.73 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72a03cfe-ec6e-4145-ae74-037691951785")
-		)
-		(pin "1"
-			(uuid "c6ff8070-3991-44b5-b7f5-955995325f7d")
-		)
-		(instances
-			(project "FIRM"
-				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
-					(reference "R19")
 					(unit 1)
 				)
 			)
