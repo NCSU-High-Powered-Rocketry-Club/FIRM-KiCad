@@ -549,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "3dmodels/",
       "pos_files": "production/pnp2/",
       "specctra_dsn": "",
       "step": "",
