@@ -342,6 +342,7 @@
 		(path "/abbac53e-988d-45c0-907c-98b5ee9c1882")
 		(sheetname "/")
 		(sheetfile "FIRM.kicad_sch")
+		(clearance 0.15)
 		(attr smd)
 		(fp_circle
 			(center -0.960001 0)
