@@ -3623,12 +3623,12 @@
 	(footprint "connectors:A-USBC-20F0-EA-GSR05"
 		(layer "F.Cu")
 		(uuid "25437def-9c95-4af5-a13b-49fe44e96bef")
-		(at 162.16 102.63)
+		(at 162.2 102.55)
 		(property "Reference" "U9"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f40a1b00-ec00-44de-bc2e-ce115ed07aef")
+			(uuid "02d68cb5-7bcd-41a2-accd-91e08c5fa14d")
 			(effects
 				(font
 					(size 1 1)
@@ -3640,7 +3640,7 @@
 			(at 0 13.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9ccefa5d-6b58-41c1-b267-c41aa877812f")
+			(uuid "7894defd-04fd-42d8-ba2d-11858db2863c")
 			(effects
 				(font
 					(size 1 1)
@@ -3653,7 +3653,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff4d01ef-fb69-40b8-8f50-052babaa9eee")
+			(uuid "c6a54303-44f6-461c-99da-121ce4a82f64")
 			(effects
 				(font
 					(size 1 1)
@@ -3666,7 +3666,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "846252af-af08-4756-80ee-7d6aee365c35")
+			(uuid "31132005-47a9-4a12-9659-2c13e5ea0f18")
 			(effects
 				(font
 					(size 1 1)
@@ -19492,7 +19492,7 @@
 	(footprint "connectors:D_schottky_NSR05F30NXT5G"
 		(layer "B.Cu")
 		(uuid "65a49f49-1df1-40fa-b671-9754f26679d2")
-		(at 168.35 97.85 90)
+		(at 168.78 97.86 90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
@@ -21596,7 +21596,7 @@
 	)
 	(gr_rect
 		(start 151.45 74.09)
-		(end 174.71 103.59)
+		(end 174.71 103.66)
 		(stroke
 			(width 0.1)
 			(type default)
