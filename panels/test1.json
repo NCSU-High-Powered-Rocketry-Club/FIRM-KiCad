@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "5mm",
+        "cols": "2"
+    },
+    "tabs": {
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.6mm",
+        "spacing": "1mm",
+        "offset": "-0.3mm"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2mm",
+        "text": "FIRM Panel"
+    }
+}
