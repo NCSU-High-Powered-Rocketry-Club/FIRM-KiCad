@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/footprints/connectors.pretty")(options "")(descr ""))
   (lib (name "sensors")(type "KiCad")(uri "${KIPRJMOD}/footprints/sensors.pretty")(options "")(descr ""))
+  (lib (name "IC_W25N04KVZEIR")(type "KiCad")(uri "${KIPRJMOD}/footprints/IC_W25N04KVZEIR")(options "")(descr ""))
 )

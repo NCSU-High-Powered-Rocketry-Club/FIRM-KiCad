@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "sensors")(type "KiCad")(uri "${KIPRJMOD}/symbols/sensors.kicad_sym")(options "")(descr ""))
   (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/symbols/connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "W25N04KVZEIR")(type "KiCad")(uri "${KIPRJMOD}/symbols/W25N04KVZEIR.kicad_sym")(options "")(descr ""))
 )
