@@ -10,276 +10,6 @@
 		(company "Seth O, Will S, Harshil M, Jackson E")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -402,1057 +132,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal_GND24"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1594,6 +273,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "Device:R_Pack04"
 			(pin_names
 				(offset 0)
@@ -2090,38 +770,66 @@
 			(embedded_fonts no)
 		)
 		(symbol "MCU_ST_STM32F4:STM32F405RGTx"
+=======
+		(symbol "RF_GPS:SAM-M8Q"
+>>>>>>> Stashed changes
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+<<<<<<< Updated upstream
 				(at -17.78 46.99 0)
+=======
+				(at -8.89 11.43 0)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+<<<<<<< Updated upstream
 					(justify left)
 				)
 			)
 			(property "Value" "STM32F405RGTx"
 				(at 10.16 46.99 0)
+=======
+				)
+			)
+			(property "Value" "SAM-M8Q"
+				(at 8.89 11.43 0)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+<<<<<<< Updated upstream
 					(justify left)
 				)
 			)
 			(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 				(at -17.78 -45.72 0)
+=======
+				)
+			)
+			(property "Footprint" "RF_GPS:ublox_SAM-M8Q"
+				(at 12.7 -11.43 0)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+<<<<<<< Updated upstream
 					(justify right)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
+=======
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -2130,7 +838,11 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+=======
+			(property "Description" "GPS ublox M8 variant"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -2139,7 +851,11 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "ki_keywords" "Arm Cortex-M4 STM32F4 STM32F405/415"
+=======
+			(property "ki_keywords" "gps module with antenna"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -2148,7 +864,11 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "ki_fp_filters" "LQFP*10x10mm*P0.5mm*"
+=======
+			(property "ki_fp_filters" "ublox*SAM?M8Q*"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -2157,10 +877,17 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(symbol "STM32F405RGTx_0_1"
 				(rectangle
 					(start -17.78 -45.72)
 					(end 17.78 45.72)
+=======
+			(symbol "SAM-M8Q_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+>>>>>>> Stashed changes
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2170,6 +897,7 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(symbol "STM32F405RGTx_1_1"
 				(pin input line
 					(at -20.32 40.64 0)
@@ -2680,6 +1408,13 @@
 					(at -2.54 48.26 270)
 					(length 2.54)
 					(name "VDD"
+=======
+			(symbol "SAM-M8Q_1_1"
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "EXTINT"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2694,6 +1429,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at 0 48.26 270)
 					(length 2.54)
@@ -4445,6 +3181,12 @@
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "MISO"
+=======
+				(pin output line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "TIMEPULSE"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4462,7 +3204,11 @@
 				(pin input line
 					(at -12.7 -2.54 0)
 					(length 2.54)
+<<<<<<< Updated upstream
 					(name "~{CS}"
+=======
+					(name "~{SAFEBOOT}"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4477,6 +3223,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive line
 					(at -7.62 -12.7 90)
 					(length 2.54)
@@ -4499,13 +3246,77 @@
 					(at -5.08 -12.7 90)
 					(length 2.54)
 					(name "RES"
+=======
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "~{RESET}"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 					(number "5"
+=======
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4514,9 +3325,16 @@
 					)
 				)
 				(pin passive line
+<<<<<<< Updated upstream
 					(at -2.54 -12.7 90)
 					(length 2.54)
 					(name "RES"
+=======
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4532,7 +3350,11 @@
 					)
 				)
 				(pin passive line
+<<<<<<< Updated upstream
 					(at -2.54 -12.7 90)
+=======
+					(at 0 -12.7 90)
+>>>>>>> Stashed changes
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -4542,6 +3364,7 @@
 							)
 						)
 					)
+<<<<<<< Updated upstream
 					(number "13"
 						(effects
 							(font
@@ -4705,6 +3528,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "11"
 						(effects
 							(font
@@ -4713,6 +3538,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin output line
 					(at 12.7 -2.54 180)
 					(length 2.54)
@@ -5274,6 +4100,12 @@
 				(pin bidirectional line
 					(at 11.43 -12.7 180)
 					(length 2.54)
+=======
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+>>>>>>> Stashed changes
 					(name "GND"
 						(effects
 							(font
@@ -5281,7 +4113,11 @@
 							)
 						)
 					)
+<<<<<<< Updated upstream
 					(number "A1"
+=======
+					(number "15"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5289,9 +4125,16 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin bidirectional line
 					(at 11.43 -15.24 180)
 					(length 2.54)
+=======
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+>>>>>>> Stashed changes
 					(name "GND"
 						(effects
 							(font
@@ -5299,7 +4142,11 @@
 							)
 						)
 					)
+<<<<<<< Updated upstream
 					(number "B1"
+=======
+					(number "16"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5307,17 +4154,29 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin bidirectional line
 					(at 11.43 -17.78 180)
 					(length 2.54)
 					(name "SHIELD"
+=======
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 					(number "S1"
+=======
+					(number "20"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5325,6 +4184,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 			)
 			(embedded_fonts no)
 		)
@@ -5595,17 +4455,32 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
+<<<<<<< Updated upstream
 								(size 1.016 1.016)
+=======
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive clock
 					(at -12.7 0 0)
 					(length 5.08)
@@ -5613,35 +4488,64 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
+<<<<<<< Updated upstream
 								(size 1.016 1.016)
+=======
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
 				(pin passive line
+<<<<<<< Updated upstream
 					(at -12.7 -3.81 0)
 					(length 5.08)
 					(name "VSS"
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
+<<<<<<< Updated upstream
 								(size 1.016 1.016)
+=======
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive line
 					(at -12.7 -7.62 0)
 					(length 5.08)
@@ -5656,10 +4560,27 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "V_BCKP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive line
 					(at -12.7 -11.43 0)
 					(length 5.08)
@@ -5674,10 +4595,27 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive line
 					(at -12.7 -15.24 0)
 					(length 5.08)
@@ -5685,17 +4623,49 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
+<<<<<<< Updated upstream
 								(size 1.016 1.016)
+=======
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin passive line
 					(at 12.7 12.7 180)
 					(length 5.08)
@@ -5764,6 +4734,22 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -5997,6 +4983,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -6020,18 +5007,31 @@
 			)
 			(property "Value" "PWR_FLAG"
 				(at 0 3.81 0)
+=======
+		(symbol "sensors:Wio_SX1262"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.366 11.43 0)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "Footprint" ""
+=======
+			(property "Value" ""
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+<<<<<<< Updated upstream
 					(hide yes)
 				)
 			)
@@ -6245,6 +5245,12 @@
 			)
 			(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 				(at -0.762 20.828 0)
+=======
+				)
+			)
+			(property "Footprint" "sensors:Wio_SX1262"
+				(at 1.524 -14.224 0)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6270,10 +5276,17 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(symbol "BMP581_1_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
+=======
+			(symbol "Wio_SX1262_1_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 11.43 -12.7)
+>>>>>>> Stashed changes
 					(stroke
 						(width 0)
 						(type solid)
@@ -6282,6 +5295,7 @@
 						(type background)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at -10.16 1.27 0)
 					(length 2.54)
@@ -6289,6 +5303,15 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+				(pin bidirectional line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "RF_SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -6301,12 +5324,21 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "SCK"
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "SPI_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -6318,6 +5350,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at -2.54 10.16 270)
 					(length 2.54)
@@ -6329,12 +5362,19 @@
 						)
 					)
 					(number "10"
+=======
+				(pin bidirectional line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SPI_MOSI"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 				(pin power_in line
 					(at -2.54 -10.16 90)
@@ -6346,6 +5386,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "3"
 						(effects
 							(font
@@ -6354,6 +5396,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -6365,12 +5408,19 @@
 						)
 					)
 					(number "9"
+=======
+				(pin bidirectional line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SPI_SCK"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 				(pin bidirectional line
 					(at 0 -10.16 90)
@@ -6382,6 +5432,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "4"
 						(effects
 							(font
@@ -6390,6 +5442,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -6401,12 +5454,19 @@
 						)
 					)
 					(number "8"
+=======
+				(pin bidirectional line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "NRST"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 				(pin bidirectional line
 					(at 2.54 -10.16 90)
@@ -6418,6 +5478,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "5"
 						(effects
 							(font
@@ -6427,12 +5489,39 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "INT"
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "SPI_NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -6445,6 +5534,7 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "CSB"
@@ -6455,12 +5545,18 @@
 						)
 					)
 					(number "6"
+=======
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "VCC"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 			)
 			(embedded_fonts no)
@@ -6539,6 +5635,9 @@
 						)
 					)
 					(number "1"
+=======
+					(number "8"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6547,6 +5646,7 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at -29.21 7.62 0)
 					(length 2.54)
 					(name "RESV/AUX1_SDIO/\nAUX1_SDI/MAS_DA"
@@ -6557,12 +5657,18 @@
 						)
 					)
 					(number "2"
+=======
+					(at 13.97 7.62 180)
+					(length 2.54)
+					(name "DIO1"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 				(pin bidirectional line
 					(at -29.21 2.54 0)
@@ -6682,6 +5788,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "12"
 						(effects
 							(font
@@ -6691,6 +5799,7 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at 3.81 -13.97 90)
 					(length 2.54)
 					(name "RESV"
@@ -6701,12 +5810,18 @@
 						)
 					)
 					(number "7"
+=======
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "BUSY"
+>>>>>>> Stashed changes
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+<<<<<<< Updated upstream
 				)
 				(pin bidirectional line
 					(at 24.13 12.7 180)
@@ -6718,6 +5833,8 @@
 							)
 						)
 					)
+=======
+>>>>>>> Stashed changes
 					(number "11"
 						(effects
 							(font
@@ -6727,12 +5844,21 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at 24.13 7.62 180)
 					(length 2.54)
 					(name "RESV/AUX1_CS"
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -6745,12 +5871,21 @@
 					)
 				)
 				(pin bidirectional line
+<<<<<<< Updated upstream
 					(at 24.13 2.54 180)
 					(length 2.54)
 					(name "INT2/FSYNC/CLKIN"
 						(effects
 							(font
 								(size 1.016 1.016)
+=======
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+>>>>>>> Stashed changes
 							)
 						)
 					)
@@ -6762,6 +5897,7 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(pin power_in line
 					(at 24.13 -2.54 180)
 					(length 2.54)
@@ -7130,10 +6266,13 @@
 						)
 					)
 				)
+=======
+>>>>>>> Stashed changes
 			)
 			(embedded_fonts no)
 		)
 	)
+<<<<<<< Updated upstream
 	(rectangle
 		(start 265.43 90.17)
 		(end 322.58 142.24)
@@ -7160,6 +6299,12 @@
 		(exclude_from_sim no)
 		(at 16.51 229.87 0)
 		(size 76.2 49.53)
+=======
+	(text_box "Wio_SX1262"
+		(exclude_from_sim no)
+		(at 97.79 17.78 0)
+		(size 77.47 54.61)
+>>>>>>> Stashed changes
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7174,12 +6319,21 @@
 			)
 			(justify left top)
 		)
+<<<<<<< Updated upstream
 		(uuid "1d6d0fa4-751f-4fe0-9b4c-ad1a8e92074a")
 	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
 		(at 130.81 158.75 0)
 		(size 93.345 121.285)
+=======
+		(uuid "090333f9-7e89-4c31-9d4d-68e2387d50d6")
+	)
+	(text_box "SAM-M10Q"
+		(exclude_from_sim no)
+		(at 17.78 17.78 0)
+		(size 77.47 54.61)
+>>>>>>> Stashed changes
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7194,6 +6348,7 @@
 			)
 			(justify left top)
 		)
+<<<<<<< Updated upstream
 		(uuid "23902d78-a7dc-49e7-aeae-a5c783810845")
 	)
 	(text_box "Power/Regulator"
@@ -7499,11 +6654,57 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0568ad-d79f-49f7-a5c7-b4c1d8f21386")
+=======
+		(uuid "0e17123f-1cd1-4ccf-83ac-13b57fcde93e")
+	)
+	(junction
+		(at 85.09 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05f21401-e104-4208-aad3-614e34b635b5")
+	)
+	(junction
+		(at 62.23 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14494bd9-a022-4391-9172-5e553b1c42c2")
+	)
+	(junction
+		(at 45.72 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f59d655-453e-4c53-a6ba-532fa34c6869")
+	)
+	(junction
+		(at 62.23 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ed0d9e-90d1-4a30-a591-55f241f8ba32")
+	)
+	(junction
+		(at 45.72 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459f237b-9ae7-43e2-b462-7e3e02216d26")
+	)
+	(junction
+		(at 48.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a86243-3c92-477b-816e-5d10e24778c5")
+	)
+	(junction
+		(at 50.8 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799335c6-1d92-4e76-9adc-fdedd6762ab5")
+>>>>>>> Stashed changes
 	)
 	(junction
 		(at 73.66 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
+<<<<<<< Updated upstream
 		(uuid "4cb3bb3f-6109-47e7-bfef-dca6b0b5e881")
 	)
 	(junction
@@ -7923,291 +7124,549 @@
 	(wire
 		(pts
 			(xy 165.1 105.41) (xy 175.26 105.41)
+=======
+		(uuid "8db3423b-e003-4135-8b13-448f21c6bba7")
+	)
+	(junction
+		(at 73.66 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b8794b-18df-412e-802d-7b3481129704")
+	)
+	(no_connect
+		(at 34.29 50.8)
+		(uuid "1732eb1e-0453-4b49-93ff-39920d608869")
+	)
+	(no_connect
+		(at 62.23 58.42)
+		(uuid "47caed9b-6a76-4ae9-aefc-56785c3016d3")
+	)
+	(no_connect
+		(at 34.29 53.34)
+		(uuid "77d52122-3547-4a9d-b6a7-9b066dc9d528")
+	)
+	(no_connect
+		(at 62.23 55.88)
+		(uuid "ca58a950-f12b-4f5c-893e-01a997dcb6e3")
+	)
+	(no_connect
+		(at 34.29 55.88)
+		(uuid "ece2f21e-181a-4d69-8cfc-93328b7a874c")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 85.09 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "00e6b06b-fa15-4929-afee-d3c3d1d7a523")
 	)
 	(wire
 		(pts
 			(xy 320.04 25.4) (xy 320.04 24.13)
+=======
+		(uuid "0279472f-28b2-4443-8f70-e047e19ece5c")
+	)
+	(wire
+		(pts
+			(xy 45.72 26.67) (xy 50.8 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "012b8f00-d60a-4039-a494-cde8695b8aa0")
 	)
 	(wire
 		(pts
 			(xy 299.72 214.63) (xy 303.53 214.63)
+=======
+		(uuid "23074cdc-8fc4-430b-b308-d8af373bac24")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 50.8 40.64)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0158af65-f8e6-4493-aa3f-90fafd131fd5")
 	)
 	(wire
 		(pts
 			(xy 322.58 214.63) (xy 340.36 214.63)
+=======
+		(uuid "28ad9526-af82-4325-bea9-8acff185d9d8")
+	)
+	(wire
+		(pts
+			(xy 45.72 26.67) (xy 45.72 40.64)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "048121b3-4b98-493d-9565-e1e6115c1912")
 	)
 	(wire
 		(pts
 			(xy 392.43 118.11) (xy 392.43 152.4)
+=======
+		(uuid "327ed6dc-27c1-42e0-b4b9-0e886ced9775")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 62.23 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "04be8315-5d9e-4b78-b7a7-5f82a3764453")
 	)
 	(wire
 		(pts
 			(xy 195.58 128.27) (xy 198.12 128.27)
+=======
+		(uuid "3d4dbef5-67dd-47e1-a61d-bdaa92c54eee")
+	)
+	(wire
+		(pts
+			(xy 50.8 36.83) (xy 62.23 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "04c7f826-e8a8-43b4-a515-9cbd54721db0")
 	)
 	(wire
 		(pts
 			(xy 127 83.82) (xy 138.43 83.82)
+=======
+		(uuid "597eb96b-2206-4a11-ad06-20754efe698e")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 60.96 58.42)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "04cad35d-4e45-4582-973f-72258ac9cfaa")
 	)
 	(wire
 		(pts
 			(xy 50.8 134.62) (xy 50.8 137.16)
+=======
+		(uuid "682f613d-1587-4483-a365-3c8572585dc4")
+	)
+	(wire
+		(pts
+			(xy 62.23 26.67) (xy 73.66 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "04e891a1-490d-4e81-b0e6-519704d11b3c")
 	)
 	(wire
 		(pts
 			(xy 62.23 198.12) (xy 64.77 198.12)
+=======
+		(uuid "6b54e5e8-f04c-4caa-ba17-cfb5220886db")
+	)
+	(wire
+		(pts
+			(xy 34.29 50.8) (xy 35.56 50.8)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "050aabdb-198b-4a66-833e-a943770e008a")
 	)
 	(wire
 		(pts
 			(xy 62.23 195.58) (xy 62.23 193.04)
+=======
+		(uuid "724bd304-5b79-4b2c-87da-a807c41d117d")
+	)
+	(wire
+		(pts
+			(xy 62.23 26.67) (xy 62.23 27.94)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "06c6382a-3c3d-48d2-9342-d408b5552b5c")
 	)
 	(wire
 		(pts
 			(xy 364.49 83.82) (xy 332.74 83.82)
+=======
+		(uuid "767de9d6-2d67-4b06-b352-f8efeed2ef9c")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 73.66 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "07115ad2-953d-4178-a0bf-7d1665d2c0b0")
 	)
 	(wire
 		(pts
 			(xy 243.84 201.93) (xy 254 201.93)
+=======
+		(uuid "7cf2ca0a-0fa0-4501-a549-7b6526e8ebd9")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 48.26 40.64)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "076a62f5-e55c-4561-a9a0-7b05d8a5c25b")
 	)
 	(wire
 		(pts
 			(xy 228.6 100.33) (xy 233.68 100.33)
+=======
+		(uuid "7d6228db-2851-4e59-9a59-02daecadef0f")
+	)
+	(wire
+		(pts
+			(xy 85.09 26.67) (xy 85.09 27.94)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "07a719e5-300c-4038-afd6-b01541e60fff")
 	)
 	(wire
 		(pts
 			(xy 127 71.12) (xy 138.43 71.12)
+=======
+		(uuid "7f1397ba-e725-4ac9-8392-03647a7df092")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 60.96 55.88)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "07b71fd1-2daa-4b25-8837-e2461327a219")
 	)
 	(wire
 		(pts
 			(xy 372.11 83.82) (xy 372.11 93.98)
+=======
+		(uuid "885a192a-e1cd-4978-bb7a-73d81c74d450")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 85.09 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "07c4205b-e1dc-4f0f-94c6-0f63ad106863")
 	)
 	(wire
 		(pts
 			(xy 198.12 128.27) (xy 198.12 132.08)
+=======
+		(uuid "8a4fa50a-36aa-4540-acb9-41c35ac3484a")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 35.56 55.88)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "07fefc76-cca5-4fec-90b1-9ff8dc75fc4d")
 	)
 	(wire
 		(pts
 			(xy 254 78.74) (xy 254 80.01)
+=======
+		(uuid "9978bd64-309a-43ba-a950-e57c448be8d6")
+	)
+	(wire
+		(pts
+			(xy 85.09 36.83) (xy 85.09 38.1)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "087b72c3-afdb-4b00-8a5c-b8c845329a69")
 	)
 	(wire
 		(pts
 			(xy 285.75 102.87) (xy 297.18 102.87)
+=======
+		(uuid "a2fac73b-dd3d-4bc3-ab01-a8a7b42e4024")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 35.56 53.34)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "088e8110-44f9-4047-8ce1-6c6c7da5efc6")
 	)
 	(wire
 		(pts
 			(xy 340.36 214.63) (xy 340.36 222.25)
+=======
+		(uuid "a63ab6ee-cfd7-4395-a745-f3b063f22a77")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 85.09 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0987e5ba-eb17-4c4d-b1b5-c72061d9e121")
 	)
 	(wire
 		(pts
 			(xy 320.04 214.63) (xy 322.58 214.63)
+=======
+		(uuid "ab4364ab-6326-45b9-975b-abe7b382527d")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 45.72 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0a13623a-0081-4f90-ab9f-79d22252f73b")
 	)
 	(wire
 		(pts
 			(xy 377.19 118.11) (xy 392.43 118.11)
+=======
+		(uuid "abbcfdcb-50f1-450d-8db1-49b2b2f4036b")
+	)
+	(wire
+		(pts
+			(xy 62.23 35.56) (xy 62.23 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0abc9a6c-9f39-449b-abb4-bd105ed008ea")
 	)
 	(wire
 		(pts
 			(xy 46.99 189.23) (xy 83.82 189.23)
+=======
+		(uuid "ad7aaf5c-d50e-44aa-8a44-e11da52ce600")
+	)
+	(wire
+		(pts
+			(xy 60.96 50.8) (xy 68.58 50.8)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0ac4769c-bac3-4c77-80f5-56d9db36d514")
 	)
 	(wire
 		(pts
 			(xy 246.38 269.24) (xy 252.73 269.24)
+=======
+		(uuid "b0a28d6b-36c1-45c4-b761-36e22eaf53de")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 35.56 58.42)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0ad6927b-452a-4cba-bc2b-e08c555ee171")
 	)
 	(wire
 		(pts
 			(xy 240.03 133.35) (xy 240.03 134.62)
+=======
+		(uuid "b6142d3e-2b24-4ae2-aa69-dbb7d125d72e")
+	)
+	(wire
+		(pts
+			(xy 21.59 58.42) (xy 22.86 58.42)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0bf6ecbb-4810-48f8-aff0-bab6b5ef973c")
 	)
 	(wire
 		(pts
 			(xy 73.66 36.83) (xy 60.96 36.83)
+=======
+		(uuid "c08c73c1-2455-4c69-a436-62d35d413a98")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 73.66 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0d069536-b8f8-4a69-9bb8-0a36267eb4a9")
 	)
 	(wire
 		(pts
 			(xy 142.24 36.83) (xy 151.13 36.83)
+=======
+		(uuid "d175e2e7-e7bd-4587-b40c-837f3bb52fa2")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 73.66 27.94)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "0e48adf3-dd4e-4bc5-a5f9-94e5825fb98c")
 	)
 	(wire
 		(pts
 			(xy 57.15 195.58) (xy 62.23 195.58)
+=======
+		(uuid "e524c1c6-cebc-457d-b5e6-4a5d1509710f")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 50.8 36.83)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "10c8a592-bfe3-4781-9024-61f268a57700")
 	)
 	(wire
 		(pts
 			(xy 73.66 46.99) (xy 60.96 46.99)
+=======
+		(uuid "f7b47187-b11f-48a1-b7ca-e55479126370")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 68.58 48.26)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "116bc630-fb5d-4fa2-b929-6993c46103ce")
 	)
 	(wire
 		(pts
 			(xy 180.34 116.84) (xy 187.96 116.84)
+=======
+		(uuid "f9cd0864-6a2e-4045-8ff0-f1acd34d2155")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 50.8 27.94)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "1370167e-c312-416e-bd33-b02931ba8f80")
 	)
 	(wire
@@ -12770,14 +12229,27 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 62.23 198.12 0)
+=======
+		(uuid "fc20e4dc-64e0-4efc-ab4f-b87645781201")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 38.1 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "03ea7298-6c97-4e9a-b01c-b7ec864f6d34")
 		(property "Reference" "#PWR013"
 			(at 62.23 204.47 0)
+=======
+		(uuid "028345ee-b93b-478f-bd0d-aaf1ac76017f")
+		(property "Reference" "#PWR064"
+			(at 85.09 44.45 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,7 +12258,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 62.23 201.93 0)
+=======
+			(at 85.09 41.91 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +12270,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 62.23 198.12 0)
+=======
+			(at 85.09 38.1 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +12283,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 62.23 198.12 0)
+=======
+			(at 85.09 38.1 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +12296,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 62.23 198.12 0)
+=======
+			(at 85.09 38.1 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,12 +12309,20 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "c0dffa9c-b22c-4f1c-b06e-b81a039fd6c5")
+=======
+			(uuid "ebcacf36-7c5d-4526-9474-911b1bfe5c69")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "#PWR013")
+=======
+					(reference "#PWR064")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -12834,6 +12330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 87.63 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13077,32 +12574,57 @@
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 374.65 234.95 0)
+=======
+		(at 62.23 31.75 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "1169e8b3-4e9d-4b61-a5cc-c302e7a2f6dd")
 		(property "Reference" "#FLG03"
 			(at 374.65 233.045 0)
+=======
+		(uuid "100a84f6-6e0a-4b7b-8488-996ea8c2d34c")
+		(property "Reference" "C32"
+			(at 66.04 30.4799 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 374.65 229.87 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 66.04 33.0199 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 			)
 		)
 		(property "Footprint" ""
 			(at 374.65 234.95 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.1952 35.56 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +12633,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 374.65 234.95 0)
+=======
+			(at 62.23 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,8 +12645,31 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 374.65 234.95 0)
+=======
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1590"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1043-1-ND"
+			(at 62.23 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,29 +12678,40 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "e4511c9a-ba23-4d10-aa72-fd5188e106fc")
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "#FLG03")
+=======
+			(uuid "44e8d49e-809d-4336-83c8-54315cd6d29b")
+		)
+		(pin "2"
+			(uuid "f6c2c293-c2c8-4053-aa81-1aea47bcce0f")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "C32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 66.04 0)
+		(lib_id "Device:C")
+		(at 85.09 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18a9c0ef-5443-443c-a04e-14c9726ae7e0")
-		(property "Reference" "R3"
-			(at 33.02 64.7699 0)
+		(uuid "11a52b72-0411-4287-8e2d-158da5306248")
+		(property "Reference" "C34"
+			(at 88.9 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,8 +12719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 67.3099 0)
+		(property "Value" "4u7"
+			(at 88.9 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,8 +12728,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 28.702 66.04 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.0552 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,7 +12738,222 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1705"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1482-1-ND"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5943497-a0a2-4dfe-b58c-e973239368e8")
+		)
+		(pin "2"
+			(uuid "dc1f1e70-3d7b-44a9-a38b-f30564cd94ac")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sensors:Wio_SX1262")
+		(at 134.62 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12f39b6a-4936-4f22-bd85-71403d3a3a29")
+		(property "Reference" "U11"
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sensors:Wio_SX1262"
+			(at 136.144 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "7e8f2bf6-13bb-4d83-af65-20b4d0e9ff8a")
+		)
+		(pin "7"
+			(uuid "c5bb1714-cb1e-4248-8e27-b68b10f9a7a0")
+		)
+		(pin "1"
+			(uuid "42feab8b-40b1-4abf-aa21-66ff2d66b5fc")
+		)
+		(pin "2"
+			(uuid "93a9cf7a-a448-4789-8301-ed0bcb7a9899")
+		)
+		(pin "12"
+			(uuid "7bf4c1b9-23ad-4b91-bbf1-8e5677940235")
+		)
+		(pin "5"
+			(uuid "f3fb48a8-4d02-4284-b17e-8baaeebe1e1a")
+		)
+		(pin "8"
+			(uuid "0deb60a7-301d-43ab-8ca6-c4d20e773f39")
+		)
+		(pin "9"
+			(uuid "fdfdefa2-caa8-405f-9171-b4a453b69efb")
+		)
+		(pin "4"
+			(uuid "541d75e5-03bc-4277-8f15-9b72826acfbc")
+		)
+		(pin "6"
+			(uuid "89c6ecf1-7949-4538-94b9-6bfa3785090f")
+		)
+		(pin "3"
+			(uuid "0cc42244-ca97-472f-b0f9-cfb9b557ca3c")
+		)
+		(pin "11"
+			(uuid "dc0208be-0904-4a87-81ed-6b3a9acc4e1c")
+		)
+		(instances
+			(project ""
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "U11")
+>>>>>>> Stashed changes
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+<<<<<<< Updated upstream
+		(at 30.48 66.04 0)
+=======
+		(at 26.67 58.42 90)
+>>>>>>> Stashed changes
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+<<<<<<< Updated upstream
+		(fields_autoplaced yes)
+		(uuid "18a9c0ef-5443-443c-a04e-14c9726ae7e0")
+		(property "Reference" "R3"
+			(at 33.02 64.7699 0)
+=======
+		(uuid "2625a5c7-2423-4bc8-b75a-4d7e66d95390")
+		(property "Reference" "R10"
+			(at 26.67 60.706 90)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< Updated upstream
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 33.02 67.3099 0)
+=======
+			)
+		)
+		(property "Value" "10k"
+			(at 26.67 58.42 90)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< Updated upstream
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 28.702 66.04 90)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 60.198 90)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 30.48 66.04 0)
+=======
+			(at 26.67 58.42 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,6 +12962,7 @@
 			)
 		)
 		(property "Description" "Resistor"
+<<<<<<< Updated upstream
 			(at 30.48 66.04 0)
 			(effects
 				(font
@@ -13206,6 +12982,9 @@
 		)
 		(property "Digikey PN" "P100KLCT-ND"
 			(at 30.48 66.04 0)
+=======
+			(at 26.67 58.42 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,28 +12993,45 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "b830152f-1c7e-4a40-8884-8998f3467db4")
 		)
 		(pin "2"
 			(uuid "d28a346d-18ed-447f-a0cd-fd65b8ea2ca8")
+=======
+			(uuid "b394d5aa-2db5-4a12-93d4-232a8e9f4315")
+		)
+		(pin "2"
+			(uuid "0a3f707d-2b2d-4e1e-b221-803a3feb8cef")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "R3")
+=======
+					(reference "R10")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 335.28 33.02 0)
+=======
+		(lib_id "RF_GPS:SAM-M8Q")
+		(at 48.26 53.34 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "19ae2d95-62d8-498a-9143-d2cbf5a6f690")
 		(property "Reference" "#PWR049"
 			(at 335.28 39.37 0)
@@ -13305,6 +13101,11 @@
 		(uuid "19bc2766-64a8-4541-95ce-855fc277086f")
 		(property "Reference" "C28"
 			(at 342.9 223.5262 0)
+=======
+		(uuid "2c32ace4-c944-44ff-bed1-fda43ab3f4e4")
+		(property "Reference" "U10"
+			(at 54.864 41.91 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,8 +13113,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "10u"
 			(at 342.9 226.0662 0)
+=======
+		(property "Value" "SAM-M10Q"
+			(at 51.054 65.278 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,8 +13127,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 340.36 224.79 0)
+=======
+		(property "Footprint" "RF_GPS:ublox_SAM-M8Q"
+			(at 60.96 64.77 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,8 +13141,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 340.36 224.79 0)
+=======
+		(property "Datasheet" "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf"
+			(at 48.26 53.34 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13339,8 +13155,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 340.36 224.79 0)
+=======
+		(property "Description" "GPS ublox M8 variant"
+			(at 48.26 53.34 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,6 +13169,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "MPN" "C1691"
 			(at 340.36 224.79 0)
 			(effects
@@ -14300,10 +14122,72 @@
 		)
 		(pin "2"
 			(uuid "964a16fc-72a1-4fd6-a9c1-2344565908bc")
+=======
+		(pin "8"
+			(uuid "1249dca9-001f-4c1d-a473-3c4d3e2da3f5")
+		)
+		(pin "16"
+			(uuid "01204542-c6a3-4098-9c0c-068779b2ee9f")
+		)
+		(pin "5"
+			(uuid "f456ecf3-79e1-4f84-ac7c-9be30f7ffa6b")
+		)
+		(pin "2"
+			(uuid "59784081-39c2-4d83-8d2a-c258d435d60b")
+		)
+		(pin "19"
+			(uuid "6e79bb29-421d-4b04-b97b-26d48c8d9987")
+		)
+		(pin "10"
+			(uuid "78f5dc7a-eeb7-4a8f-a405-9b835c77b712")
+		)
+		(pin "7"
+			(uuid "a0050bc2-6d88-4879-b11c-50eae6b9b984")
+		)
+		(pin "17"
+			(uuid "358aba66-8557-41b7-8600-067a22820da3")
+		)
+		(pin "11"
+			(uuid "a6e03acd-febe-424f-a996-d99cafb68c02")
+		)
+		(pin "15"
+			(uuid "2b01a776-7582-4bad-bc5c-782cc950f04c")
+		)
+		(pin "18"
+			(uuid "3602f28a-94ab-4a4e-8e66-dcfaa0190386")
+		)
+		(pin "1"
+			(uuid "f406b508-76ce-4c45-9d1c-e295b5615487")
+		)
+		(pin "20"
+			(uuid "732680ef-10b0-40fc-a8e7-ed1e3d5a1f88")
+		)
+		(pin "4"
+			(uuid "1fac892c-807a-4dbf-96c3-65fe778bbc7f")
+		)
+		(pin "9"
+			(uuid "15b78047-3031-42c3-891c-6c13241818bd")
+		)
+		(pin "12"
+			(uuid "6288d419-ea65-442c-84ca-62c42e0a140b")
+		)
+		(pin "14"
+			(uuid "388e8788-f42c-4ed6-8694-039d3b4a4197")
+		)
+		(pin "13"
+			(uuid "22b2b715-00f8-4bd0-a2f6-da32435414c4")
+		)
+		(pin "3"
+			(uuid "c67df0d3-5147-488e-a7dc-9a99dfd25991")
+		)
+		(pin "6"
+			(uuid "32bf108b-d99a-4a55-81ba-77a14af906dc")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "U8")
 					(unit 1)
 				)
@@ -15589,6 +15473,9 @@
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "C19")
+=======
+					(reference "U10")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -15596,6 +15483,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 41.91 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15684,15 +15572,24 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 142.24 41.91 0)
+=======
+		(at 50.8 31.75 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "4a5207dd-bca0-4f91-b049-3a8e0813a03f")
 		(property "Reference" "C17"
 			(at 146.05 40.6399 0)
+=======
+		(uuid "6eea3d29-e25d-4e7a-9931-1f3fbf8e4c35")
+		(property "Reference" "C31"
+			(at 54.61 30.4799 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15598,11 @@
 			)
 		)
 		(property "Value" "100n"
+<<<<<<< Updated upstream
 			(at 146.05 43.1799 0)
+=======
+			(at 54.61 33.0199 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +15611,11 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+<<<<<<< Updated upstream
 			(at 143.2052 45.72 0)
+=======
+			(at 51.7652 35.56 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +15624,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 142.24 41.91 0)
+=======
+			(at 50.8 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15637,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< Updated upstream
 			(at 142.24 41.91 0)
+=======
+			(at 50.8 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15650,11 @@
 			)
 		)
 		(property "MPN" "C1590"
+<<<<<<< Updated upstream
 			(at 142.24 41.91 0)
+=======
+			(at 50.8 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +15663,11 @@
 			)
 		)
 		(property "Digikey PN" "1276-1043-1-ND"
+<<<<<<< Updated upstream
 			(at 142.24 41.91 0)
+=======
+			(at 50.8 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,14 +15676,22 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "41d5a595-3d5c-40be-b433-f6222bc6d321")
 		)
 		(pin "2"
 			(uuid "6a0f604d-5f49-4bf4-bbac-7d81c16e0d38")
+=======
+			(uuid "bb6c998a-07c9-4e53-964c-e5d79b8170fb")
+		)
+		(pin "2"
+			(uuid "d8fc0db4-7a56-4f1f-b0d3-aa68feb7e487")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "C17")
 					(unit 1)
 				)
@@ -17217,6 +17146,9 @@
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "#PWR052")
+=======
+					(reference "C31")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -17224,15 +17156,26 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 39.37 130.81 0)
+=======
+		(at 73.66 31.75 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "76edd54d-e1e1-4b76-a9ce-04ad4ab839f1")
 		(property "Reference" "C4"
 			(at 42.418 129.54 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "828deed9-a844-4ba0-9aa0-53bae1ce2960")
+		(property "Reference" "C33"
+			(at 77.47 30.4799 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,8 +17183,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "6p"
 			(at 42.418 132.08 0)
+=======
+		(property "Value" "100n"
+			(at 77.47 33.0199 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17250,7 +17198,11 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+<<<<<<< Updated upstream
 			(at 40.3352 134.62 0)
+=======
+			(at 74.6252 35.56 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17259,7 +17211,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 39.37 130.81 0)
+=======
+			(at 73.66 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17268,7 +17224,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< Updated upstream
 			(at 39.37 130.81 0)
+=======
+			(at 73.66 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,8 +17236,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "MPN" "C37474"
 			(at 39.37 130.81 0)
+=======
+		(property "MPN" "C1590"
+			(at 73.66 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,8 +17250,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Digikey PN" "311-3714-1-ND"
 			(at 39.37 130.81 0)
+=======
+		(property "Digikey PN" "1276-1043-1-ND"
+			(at 73.66 31.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,14 +17265,22 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "c3b609e7-a233-4ba4-9005-230b4b530420")
 		)
 		(pin "2"
 			(uuid "ad4315cc-3acc-4845-b6fe-69377533b33f")
+=======
+			(uuid "2076fe1b-8677-4205-856a-9ff384de3338")
+		)
+		(pin "2"
+			(uuid "c56c5fac-9ae5-4945-b652-09468e7e592e")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "C4")
 					(unit 1)
 				)
@@ -17871,6 +17849,9 @@
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "#PWR01")
+=======
+					(reference "C33")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -17878,16 +17859,26 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 322.58 227.33 0)
+=======
+		(at 48.26 66.04 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(fields_autoplaced yes)
 		(uuid "82a78d23-e4a1-445e-886e-d24ca4495e13")
 		(property "Reference" "#PWR048"
 			(at 322.58 233.68 0)
+=======
+		(uuid "8e39eeb4-cfe2-4b89-9162-6774c1268acd")
+		(property "Reference" "#PWR062"
+			(at 48.26 72.39 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17896,7 +17887,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 322.58 232.41 0)
+=======
+			(at 48.26 69.85 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17904,7 +17899,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 322.58 227.33 0)
+=======
+			(at 48.26 66.04 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17913,7 +17912,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 322.58 227.33 0)
+=======
+			(at 48.26 66.04 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17922,7 +17925,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 322.58 227.33 0)
+=======
+			(at 48.26 66.04 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17931,6 +17938,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "5bee6e4a-6e1d-4ed4-9325-60e8a819edc1")
 		)
 		(instances
@@ -17998,10 +18006,14 @@
 		)
 		(pin "1"
 			(uuid "bb32a25c-8eea-42a9-8b16-4241c6d2e14c")
+=======
+			(uuid "24d5340c-2285-4633-a83d-5b3c8c5a77a2")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -19176,6 +19188,9 @@
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "#PWR017")
+=======
+					(reference "#PWR062")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -19183,15 +19198,26 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+<<<<<<< Updated upstream
 		(at 172.72 35.56 0)
+=======
+		(at 45.72 25.4 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "a1f55ffe-a147-44e2-a2d2-b11c58c9ab49")
 		(property "Reference" "#PWR022"
 			(at 172.72 39.37 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "bf4b36f9-6d35-420b-8392-b3ab8141af92")
+		(property "Reference" "#PWR025"
+			(at 45.72 29.21 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19200,7 +19226,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
+<<<<<<< Updated upstream
 			(at 172.72 31.75 0)
+=======
+			(at 45.72 20.32 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19208,7 +19238,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 172.72 35.56 0)
+=======
+			(at 45.72 25.4 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19217,7 +19251,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 172.72 35.56 0)
+=======
+			(at 45.72 25.4 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19226,7 +19264,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+<<<<<<< Updated upstream
 			(at 172.72 35.56 0)
+=======
+			(at 45.72 25.4 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19235,6 +19277,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "5c867003-8386-4081-a658-bb3909456a99")
 		)
 		(instances
@@ -19410,10 +19453,14 @@
 		)
 		(pin "2"
 			(uuid "55354dde-2699-4d04-8126-4c3f394f7e89")
+=======
+			(uuid "d5edaad7-86c1-4ed8-859a-65dedc12b0c2")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "R16")
 					(unit 1)
 				)
@@ -22700,6 +22747,9 @@
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "U4")
+=======
+					(reference "#PWR025")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -22707,15 +22757,26 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+<<<<<<< Updated upstream
 		(at 313.69 22.86 0)
+=======
+		(at 21.59 58.42 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "e1266449-0cd6-4695-b6c8-37c67dbd6592")
 		(property "Reference" "#PWR046"
 			(at 313.69 26.67 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "d1a853f0-688d-4b27-a7fa-f61a1425e027")
+		(property "Reference" "#PWR063"
+			(at 21.59 62.23 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22724,7 +22785,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
+<<<<<<< Updated upstream
 			(at 313.69 19.05 0)
+=======
+			(at 21.59 53.34 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22732,7 +22797,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 313.69 22.86 0)
+=======
+			(at 21.59 58.42 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22741,7 +22810,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 313.69 22.86 0)
+=======
+			(at 21.59 58.42 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22750,7 +22823,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+<<<<<<< Updated upstream
 			(at 313.69 22.86 0)
+=======
+			(at 21.59 58.42 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22759,11 +22836,16 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "af3fad73-114d-406a-9876-ffe82bd3d530")
+=======
+			(uuid "e4127b74-2c2c-490e-8742-dcc3d65a21c0")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+<<<<<<< Updated upstream
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -24334,6 +24416,9 @@
 			(project "FIRM"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "C22")
+=======
+					(reference "#PWR063")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
