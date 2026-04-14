@@ -853,7 +853,7 @@
         "uuid": "d3f8a00a-ef65-439d-87f3-373a106a7ddb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR16,#PWR22-24,#FLG1-3",
     "variants": []
   },
   "sheets": [
