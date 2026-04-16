@@ -853,7 +853,7 @@
         "uuid": "d3f8a00a-ef65-439d-87f3-373a106a7ddb"
       }
     ],
-    "used_designators": "L2,AE2,#PWR26-33,#PWR65-67,C4-6,C35-38,J3-4,R5,R14,U2,U11",
+    "used_designators": "#PWR34,TSK_PS1240P02BT1",
     "variants": []
   },
   "sheets": [

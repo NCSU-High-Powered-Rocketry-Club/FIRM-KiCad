@@ -10,7 +10,7 @@
 		(company "Will S, William D, Malcolm C")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x21_Pin"
+		(symbol "Connector:Conn_01x22_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -30,8 +30,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x21_Pin"
-				(at 0 -27.94 0)
+			(property "Value" "Conn_01x22_Pin"
+				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x21, script generated"
+			(property "Description" "Generic connector, single row, 01x22, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x21_Pin_1_1"
+			(symbol "Conn_01x22_Pin_1_1"
 				(rectangle
 					(start 0.8636 25.527)
 					(end 0 25.273)
@@ -329,6 +329,17 @@
 				(rectangle
 					(start 0.8636 -25.273)
 					(end 0 -25.527)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -27.813)
+					(end 0 -28.067)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -580,6 +591,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -25.4) (xy 0.8636 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -27.94) (xy 0.8636 -27.94)
 					)
 					(stroke
 						(width 0.1524)
@@ -960,6 +983,24 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -27.94 180)
+					(length 3.81)
+					(name "Pin_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1399,6 +1440,183 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4383,6 +4601,26 @@
 		)
 		(uuid "c7695d41-48b8-496e-8566-ef24828557d2")
 	)
+	(text_box "Buzzer"
+		(exclude_from_sim no)
+		(at 48.26 182.88 0)
+		(size 77.47 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "df2cebb1-799a-4956-983e-81030b862d55")
+	)
 	(junction
 		(at 66.04 153.67)
 		(diameter 0)
@@ -4689,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 190.5) (xy 85.09 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd528bf-d444-4e7f-bfc7-e156834bad4a")
+	)
+	(wire
+		(pts
 			(xy 114.3 100.33) (xy 114.3 106.68)
 		)
 		(stroke
@@ -4786,6 +5034,16 @@
 			(type default)
 		)
 		(uuid "2883f58a-fde0-4fc2-81d5-a9173aa86031")
+	)
+	(wire
+		(pts
+			(xy 85.09 195.58) (xy 81.28 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0e1d1e-1618-4b5b-99ac-6021e80ac3a8")
 	)
 	(wire
 		(pts
@@ -5579,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 73.66) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9041fb-488e-4d38-bbd8-f985e51ae7b6")
+	)
+	(wire
+		(pts
 			(xy 115.57 24.13) (xy 115.57 25.4)
 		)
 		(stroke
@@ -5847,6 +6115,16 @@
 		)
 		(uuid "f65c7a0c-d625-429e-a85d-c32f04aa1322")
 	)
+	(wire
+		(pts
+			(xy 81.28 195.58) (xy 81.28 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa482b3a-6933-402d-8c78-aec0f2c13af1")
+	)
 	(label "RXEN"
 		(at 171.45 59.69 90)
 		(effects
@@ -6016,6 +6294,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a024162-a980-43bf-973d-a9dc9fc3c53a")
+	)
+	(label "BUZZ"
+		(at 30.48 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4326d300-4475-475a-9533-ba7abe249ce0")
 	)
 	(label "UART_RX"
 		(at 30.48 25.4 0)
@@ -6236,6 +6524,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1d395d9-e38b-4a53-9ac5-ee1523b66c21")
+	)
+	(label "BUZZ"
+		(at 72.39 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e89a0ddb-f59c-444b-85d5-539f6e909906")
 	)
 	(label "NSS"
 		(at 30.48 63.5 0)
@@ -9371,6 +9669,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Buzzer")
+		(at 87.63 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb7789d-9aa9-43a3-9bbb-5c11f6ed1d34")
+		(property "Reference" "TSK_PS1240P02BT1"
+			(at 91.44 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 91.44 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
+			(at 86.995 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"
+			(at 86.995 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 87.63 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14c39c35-c497-4f3d-929b-21ee3a69ed50")
+		)
+		(pin "2"
+			(uuid "67d46490-9f3e-443b-9c4f-6b47b347e2fc")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "TSK_PS1240P02BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 106.68 270)
 		(unit 1)
@@ -9956,6 +10336,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8220e60b-b8ee-4c3d-8e33-ce3374f8d299")
+		(property "Reference" "#PWR034"
+			(at 81.28 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 200.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a90a7c46-14d3-4247-bfcb-f20845bca97e")
+		)
+		(instances
+			(project "FIRM"
+				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 138.43 54.61 0)
 		(unit 1)
@@ -10215,7 +10672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x21_Pin")
+		(lib_id "Connector:Conn_01x22_Pin")
 		(at 20.32 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -10236,7 +10693,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x21_Pin"
+		(property "Value" "Conn_01x22_Pin"
 			(at 20.955 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10725,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x21, script generated"
+		(property "Description" "Generic connector, single row, 01x22, script generated"
 			(at 20.32 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10341,6 +10798,9 @@
 		)
 		(pin "4"
 			(uuid "1c3c56a4-cd7c-46a5-ad62-7ffb22104041")
+		)
+		(pin "22"
+			(uuid "11b1651e-13d2-4583-adb0-be19c62cba5d")
 		)
 		(instances
 			(project "FIRM"
