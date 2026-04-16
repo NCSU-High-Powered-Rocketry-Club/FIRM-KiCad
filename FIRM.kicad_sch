@@ -12607,6 +12607,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 130.81) (xy 245.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa0715-6a4c-4eb6-97f3-d25ea966ce8b")
+	)
+	(wire
+		(pts
 			(xy 562.61 306.07) (xy 563.88 306.07)
 		)
 		(stroke
@@ -16444,6 +16454,16 @@
 			(justify right bottom)
 		)
 		(uuid "99d9ea00-409e-4bb7-a006-a83cd2dd89e3")
+	)
+	(label "USB_OTG_FS_DM"
+		(at 229.87 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d033647-0c33-4dfa-967d-67e9788319a3")
 	)
 	(label "USART1_RX"
 		(at -73.66 209.55 180)
