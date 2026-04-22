@@ -10789,16 +10789,6 @@
 		)
 		(uuid 4a0bba34-79c2-47a0-90ff-0a1d97a30420)
 	)
-	(text "idk if im doing this right yikes\n"
-		(exclude_from_sim no)
-		(at 251.714 262.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "827c1644-87b3-439d-8ffc-652c19c4c4e2")
-	)
 	(text "INA219AIDCNR Voltage Sensor\n"
 		(exclude_from_sim no)
 		(at 453.39 205.232 0)
@@ -17160,28 +17150,6 @@
 		(uuid "b9964d4f-5d08-4929-9b5c-10c98585b102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.7666 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label ""
-		(shape input)
-		(at 220.98 306.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4100f9a-0f39-40b1-b462-0c3816116bad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2192 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
