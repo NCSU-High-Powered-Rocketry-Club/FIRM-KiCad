@@ -4798,12 +4798,24 @@
 		(uuid "18d1e018-f7c6-48ba-a1a2-0917eef434a5")
 	)
 	(no_connect
+		(at 170.18 41.91)
+		(uuid "2fefd418-9bdf-43e9-866f-2a19819ece4f")
+	)
+	(no_connect
 		(at 92.71 53.34)
 		(uuid "335aa202-0b17-40ab-9c9e-93b0185edaa5")
 	)
 	(no_connect
 		(at 172.72 29.21)
 		(uuid "6688a6c6-ae20-4299-937c-7d3b0e594eda")
+	)
+	(no_connect
+		(at 170.18 29.21)
+		(uuid "6d424be0-3b63-4a6e-b566-ce8b400d324d")
+	)
+	(no_connect
+		(at 167.64 29.21)
+		(uuid "88d989ec-4671-45d2-a86c-27a32a93a43e")
 	)
 	(no_connect
 		(at 157.48 46.99)
@@ -4820,6 +4832,10 @@
 	(no_connect
 		(at 157.48 44.45)
 		(uuid "bdc96001-7889-49f1-a3cf-7d5c2a9bf9db")
+	)
+	(no_connect
+		(at 165.1 29.21)
+		(uuid "c7f7ae40-4b6c-46ac-957a-8b2151306e3c")
 	)
 	(no_connect
 		(at 168.91 54.61)
@@ -4897,7 +4913,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 99.06 48.26)
+			(xy 91.44 48.26) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5697,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 45.72) (xy 99.06 45.72)
+			(xy 91.44 45.72) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8102,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf"
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/SAM-M10Q_IntegrationManual_UBX-22020019.pdf"
 			(at 78.74 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11710,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://hubtronics.in/docs/E220-900MM22S.pdf?srsltid=AfmBOorvdmXOq2P7VSI2mn9bK9tzwslegi7LgmQHXKiWO6Jc0ak4xOR6"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
