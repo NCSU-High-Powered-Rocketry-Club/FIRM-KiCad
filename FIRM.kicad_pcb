@@ -513,7 +513,7 @@
 			(uuid "acc72ee2-5d4e-4989-87a4-26a5d5c99312")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.step"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6372,7 +6372,7 @@
 			(uuid "46420944-ddc4-404e-bf8e-a7be4e619c21")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Sensor_Motion.3dshapes/LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9350,7 +9350,7 @@
 			(uuid "65ea7333-6252-4338-b88f-2cdc9b5cab3c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y.step"
+		(model "${KIPRJMOD}/3dmodels/BMP581.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9358,7 +9358,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11644,7 +11644,7 @@
 			(uuid "253dffe7-53f5-4166-a8c4-6a7938b6cf0f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

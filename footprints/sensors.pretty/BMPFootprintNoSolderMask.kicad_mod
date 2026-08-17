@@ -250,7 +250,7 @@
 		(uuid "99937e4f-b510-479e-9fb9-86f7df29b1a3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y.step"
+	(model "${KIPRJMOD}/3dmodels/BMP581.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -258,7 +258,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
