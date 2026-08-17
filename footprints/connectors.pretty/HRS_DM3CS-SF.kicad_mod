@@ -522,4 +522,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/DM3CS-SF.step"
+		(offset
+			(xyz -224.29 -126.3636 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
