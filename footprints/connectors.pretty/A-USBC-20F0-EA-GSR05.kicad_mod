@@ -275,15 +275,15 @@
 		(uuid "4d0df4de-0975-4d83-bba9-37cb13dada34")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/A-USBC-20F0-EA-GSR05.step"
+	(model "${KIPRJMOD}/3dmodels/firm_usbc.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5.5 -3.5 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 -180)
 		)
 	)
 )
