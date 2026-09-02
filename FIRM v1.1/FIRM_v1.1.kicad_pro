@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FIRM.kicad_pro",
+    "filename": "FIRM_v1.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -864,8 +864,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "FIRM.kicad_sch",
-        "name": "FIRM",
+        "filename": "FIRM_v1.1.kicad_sch",
+        "name": "FIRM_v1.1",
         "uuid": "d3f8a00a-ef65-439d-87f3-373a106a7ddb"
       }
     ],
