@@ -866,7 +866,7 @@
       {
         "filename": "FIRM.kicad_sch",
         "name": "FIRM",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "d3f8a00a-ef65-439d-87f3-373a106a7ddb"
       }
     ],
     "used_designators": "",
@@ -875,7 +875,7 @@
   "sheets": [
     [
       "d3f8a00a-ef65-439d-87f3-373a106a7ddb",
-      "Root"
+      "FIRM"
     ]
   ],
   "text_variables": {},
