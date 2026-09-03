@@ -42,17 +42,10 @@ Root-level description (key files/folders):
 
 ## Library handling
 
-We keep the project-specific libraries inside the repository so that board designs are reproducible and self-contained.
+We keep the component libraries inside the HPRC-KiCad-Library so that components can be reused across different HPRC projects.
 
-### Symbols
-- New symbols are added to the project's `symbols` directory and are registered in the project's `sym-lib-table`.
-
-### Footprints
-- Footprints live inside `.pretty` folders in `footprints/`. Add footprints via the footprint editor and store them in an appropriate `footprints/<libname>.pretty` folder.
-
-### 3D models
-- 3D models are stored in `3dmodels/` and referenced by footprint model paths. Keep STEP files with good orientation and scale (KiCad's default is mm). We typically download the .step file from the manufacturer's website.
-- If you add a footprint that references a 3D model, commit both the footprint in `footprints/` and the 3D model to `3dmodels/`.
+Make sure to follow the "Setup" instructions [here](
+https://github.com/NCSU-High-Powered-Rocketry-Club/HPRC-KiCad-Library)
 
 ---
 
