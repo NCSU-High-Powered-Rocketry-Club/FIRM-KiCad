@@ -72,6 +72,19 @@ Before requesting fab or assembling a board, run this checklist:
 
 ---
 
+## Git Collaboration and Merge Process
+
+KiCad collaboration using git is difficult due to the KiCad file format. For example, moving a few symbols in a schematic will cause many lines to be edited, which greatly increases the chances of merge conflicts.
+1. Create an issue for your feature if there isn't one already.
+2. Create a branch including your name and the issue number ex: name-fix-XX or name-add-XX
+    - It is best practice to suffix your branch name with a very short description/wordrelated to your change
+3. Implement your change on your branch
+4. Create a pull request (PR) for your change. Make sure to include images of the schematic or pcb design as well as reasons behind design decision. Request reviews from the issue creator or relevant contributors. You should need one approval to merge.
+5. Merge your change into main. You will probably have to and should be able to force merge into main. 
+    - However, if someone made change in between the time your branched from main and need to merge, you will have to do an unconvential merge process. 
+    - You need a clean branch off the new main for this; this clean branch can either be a new branch you create, or your feature branch with all your changes reverted with main force merged into it. Then, access your changes and copy (ctrl-c copy) your symbols/components.
+    - Now, open your clean branch to paste and position your changes. Commit this and update your PR or create a new one linking to your old one, and try to merge your changes as soon as possible.
+
 ## License
 
 See `LICENSE` at the repo root for licensing details.
