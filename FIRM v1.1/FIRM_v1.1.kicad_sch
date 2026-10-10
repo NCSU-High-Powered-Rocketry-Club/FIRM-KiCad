@@ -13412,7 +13412,7 @@
 		)
 		(uuid "fffbff32-494f-44ee-bbfa-1ab92ed3d00d")
 	)
-	(label "DEBUG3"
+	(label "DEBUG_3"
 		(at 81.28 198.12 180)
 		(effects
 			(font
@@ -13622,7 +13622,7 @@
 		)
 		(uuid "4310c7d3-3dd0-462d-980a-0b90c80d91a8")
 	)
-	(label "DEBUG3"
+	(label "DEBUG_3"
 		(at 266.7 194.31 180)
 		(effects
 			(font
