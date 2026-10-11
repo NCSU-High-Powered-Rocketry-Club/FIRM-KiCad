@@ -485,6 +485,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -562,8 +563,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Bigger",
@@ -869,7 +870,7 @@
         "uuid": "d3f8a00a-ef65-439d-87f3-373a106a7ddb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR74-79,C49-53,R9,U11",
     "variants": []
   },
   "sheets": [
