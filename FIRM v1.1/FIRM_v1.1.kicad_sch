@@ -13910,6 +13910,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 228.6) (xy 260.35 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2ace65-a40e-4540-89a2-afb151b0f93e")
+	)
+	(wire
+		(pts
 			(xy 175.26 190.5) (xy 152.4 190.5)
 		)
 		(stroke
@@ -14190,6 +14200,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 226.06) (xy 260.35 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52cf2a4-3b9e-48d2-a7ae-51d1e9b27521")
+	)
+	(wire
+		(pts
 			(xy 251.46 200.66) (xy 254 200.66)
 		)
 		(stroke
@@ -14367,6 +14387,16 @@
 			(justify left bottom)
 		)
 		(uuid "21cdcf6e-f1dd-4754-9508-84704d223259")
+	)
+	(label "IMUL_CS"
+		(at 260.35 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22ad2946-d05e-4146-9ec5-ff2009123d3c")
 	)
 	(label "MOSI2"
 		(at 440.69 116.84 90)
@@ -14987,6 +15017,16 @@
 			(justify left bottom)
 		)
 		(uuid "d26c19d1-55d7-478e-a9e7-ff9e40f513dd")
+	)
+	(label "IMUL_INT"
+		(at 260.35 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d625c9dd-532d-4625-b1c0-caf8ec48bf07")
 	)
 	(label "USB_D-"
 		(at 472.44 238.76 180)
