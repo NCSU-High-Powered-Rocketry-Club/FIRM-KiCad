@@ -17534,7 +17534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17809,7 +17809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 405.13 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -18419,7 +18419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.27 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19746,7 +19746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HPRC_Sensors:ADXL375BCCZ-RL7"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 331.47 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -21129,7 +21129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 416.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -22765,7 +22765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 408.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23722,7 +23722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 452.12 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -24162,7 +24162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.54 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24334,7 +24334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 266.7 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24416,7 +24416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -26195,7 +26195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -26355,7 +26355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HPRC_Sensors:ADXL375BCCZ-RL7"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -27171,7 +27171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 266.7 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -28082,7 +28082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 160.02 0)
 			(hide yes)
 			(show_name no)
