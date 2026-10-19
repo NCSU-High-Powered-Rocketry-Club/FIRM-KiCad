@@ -3365,9 +3365,9 @@
 					)
 				)
 				(pin output line
-					(at 13.97 -10.16 180)
+					(at 13.97 -6.35 180)
 					(length 2.54)
-					(name "INT2"
+					(name "INT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3383,9 +3383,9 @@
 					)
 				)
 				(pin output line
-					(at 13.97 -6.35 180)
+					(at 13.97 -10.16 180)
 					(length 2.54)
-					(name "INT1"
+					(name "INT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10807,8 +10807,8 @@
 		(uuid "ab6afe28-0dd6-4692-b5fd-e01c9c37d5a2")
 	)
 	(no_connect
-		(at 261.62 175.26)
-		(uuid "af9a7a16-0c23-4053-addc-93b3da0f1502")
+		(at 261.62 218.44)
+		(uuid "b372525f-8c1f-4759-bdc2-aaab548967c6")
 	)
 	(no_connect
 		(at 261.62 86.36)
@@ -11324,7 +11324,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 180.34) (xy 281.94 180.34)
+			(xy 266.7 175.26) (xy 281.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11384,23 +11384,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 218.44) (xy 281.94 218.44)
+			(xy 266.7 180.34) (xy 281.94 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b9e66cc-35db-4956-9931-de435a94bda3")
-	)
-	(wire
-		(pts
-			(xy 261.62 218.44) (xy 266.7 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcbeafb-6714-45f4-82ed-80abe69dd2e1")
 	)
 	(wire
 		(pts
@@ -15693,7 +15683,7 @@
 		(uuid "a73bda3b-21d6-4eab-848e-78ad4e27228b")
 	)
 	(label "MOSI3"
-		(at 281.94 218.44 180)
+		(at 281.94 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15723,7 +15713,7 @@
 		(uuid "b0c786e9-3576-47fa-ad73-0dadc490f40d")
 	)
 	(label "SCK3"
-		(at 281.94 180.34 180)
+		(at 281.94 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16118,7 +16108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 264.16 180.34 90)
+		(at 264.16 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16128,7 +16118,7 @@
 		(dnp no)
 		(uuid "059ad4a1-fedd-4ecd-8638-95efa8951c2d")
 		(property "Reference" "R15"
-			(at 264.414 182.118 90)
+			(at 264.414 177.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16138,7 +16128,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 261.874 178.816 90)
+			(at 261.874 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16148,7 +16138,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 264.16 180.34 0)
+			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16159,7 +16149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 180.34 0)
+			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16170,7 +16160,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 264.16 180.34 0)
+			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24380,7 +24370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "14p"
 			(at 110.744 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26445,7 +26435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 269.24 218.44 90)
+		(at 264.16 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26455,7 +26445,7 @@
 		(dnp no)
 		(uuid "c314592b-566d-4b81-bc87-bc6292c3baea")
 		(property "Reference" "R34"
-			(at 269.24 213.36 90)
+			(at 264.16 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26465,7 +26455,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 269.24 215.9 90)
+			(at 261.62 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26475,7 +26465,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 269.24 218.44 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26486,7 +26476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 218.44 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26497,7 +26487,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 269.24 218.44 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28180,7 +28170,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 267.97 175.514 90)
+			(at 271.018 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28259,7 +28249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "14p"
 			(at 89.408 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
