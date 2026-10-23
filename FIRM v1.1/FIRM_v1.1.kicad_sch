@@ -22846,7 +22846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 429.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22857,7 +22857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 429.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22868,7 +22868,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X7R Unpolarized capacitor."
 			(at 429.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22879,7 +22879,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61E106MA73J"
+		(property "MPN" "GRM31CR71E106KA12L"
 			(at 429.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22890,7 +22890,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "490-12737-1-ND"
+		(property "Digikey PN" "490-6518-1-ND"
 			(at 429.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -29780,7 +29780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 400.05 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -29791,7 +29791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 400.05 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -29802,7 +29802,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X7R Unpolarized capacitor."
 			(at 400.05 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -29813,7 +29813,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X5R226M25NT"
+		(property "MPN" "GRM32ER71E226KE15K"
 			(at 400.05 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -29824,7 +29824,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "4713-GMC21X5R226M25NTCT-ND"
+		(property "Digikey PN" "490-GRM32ER71E226KE15KCT-ND"
 			(at 400.05 238.76 0)
 			(hide yes)
 			(show_name no)
