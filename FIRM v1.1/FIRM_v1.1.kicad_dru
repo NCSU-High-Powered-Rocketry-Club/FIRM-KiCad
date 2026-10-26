@@ -1,10 +1,29 @@
 (version 1)
-(rule "Pad to Track Clearance"
-    (constraint clearance (min 0.1mm))
-    (condition "A.Type =='Pad' && B.Type =='Track'"))
-(rule "Via Hole to Track Clearance"
-    (constraint clearance (min 0.2mm))
-    (condition "A.Type =='Via' && B.Type =='Track'"))
-(rule "Track to Track Clearance"
-	(constraint clearance (min 0.16mm))
-	(condition "A.Type == 'Track' && B.Type == 'Track'"))
+(rule "FIRM copper clearance - 3 mil"
+    (constraint clearance (min 0.0762mm)))
+(rule "FIRM track width - 3 mil minimum"
+    (constraint track_width (min 0.0762mm)))
+(rule "FIRM copper to board edge"
+    (constraint edge_clearance (min 0.50mm)))
+(rule "FIRM hole to other-net copper - 6 mil"
+    (constraint hole_clearance (min 0.1524mm)))
+(rule "FIRM mechanical hole to hole - 10 mil"
+    (constraint hole_to_hole (min 0.254mm)))
+(rule "FIRM mechanical via diameter"
+    (condition "A.Type == 'Via' && A.Via_Type != 'Micro'")
+    (constraint via_diameter (min 0.32mm)))
+(rule "FIRM mechanical drill - 6 mil"
+    (condition "(A.Type == 'Via' && A.Via_Type != 'Micro') || A.Type == 'Pad'")
+    (constraint hole_size (min 0.1524mm)))
+(rule "FIRM via annular ring - 3 mil radial"
+    (condition "A.Type == 'Via'")
+    (constraint annular_width (min 0.0762mm)))
+(rule "FIRM component hole annular ring - 5 mil radial"
+    (condition "A.Type == 'Pad' && A.isPlated()")
+    (constraint annular_width (min 0.127mm)))
+(rule "FIRM microvia diameter"
+    (condition "A.Type == 'Via' && A.Via_Type == 'Micro'")
+    (constraint via_diameter (min 0.26mm)))
+(rule "FIRM laser microvia hole - 4 mil"
+    (condition "A.Type == 'Via' && A.Via_Type == 'Micro'")
+    (constraint hole_size (min 0.1016mm)))
