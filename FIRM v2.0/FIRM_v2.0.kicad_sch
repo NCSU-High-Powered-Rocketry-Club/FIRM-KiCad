@@ -13248,7 +13248,7 @@
 		)
 		(uuid "caebc3c9-bb36-4a45-a2cb-e5edfb875a02")
 	)
-	(text_box "E22-900MM22S"
+	(text_box "E22-400MM22S"
 		(exclude_from_sim no)
 		(at 97.79 266.7 0)
 		(size 77.47 54.61)
