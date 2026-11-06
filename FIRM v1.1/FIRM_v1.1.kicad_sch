@@ -10021,26 +10021,6 @@
 		)
 		(uuid "4e719da5-40ca-411d-90d5-b883c1ec8aa4")
 	)
-	(text_box "STM32F446ZCHx"
-		(exclude_from_sim no)
-		(at 11.43 16.51 0)
-		(size 302.26 234.95)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7da3fecb-4018-4bfb-b40b-9b342fee19c1")
-	)
 	(text_box "SCH16T-K01-1 IMU"
 		(exclude_from_sim no)
 		(at 473.71 13.97 0)
@@ -11074,6 +11054,10 @@
 		(uuid "602a1d29-127b-408b-8c92-5ba58ef0273d")
 	)
 	(no_connect
+		(at 261.62 205.74)
+		(uuid "621fd496-da16-411f-9762-a684e1db12d9")
+	)
+	(no_connect
 		(at 261.62 134.62)
 		(uuid "63400180-af45-4114-8aa8-aa617d1cb874")
 	)
@@ -11100,6 +11084,10 @@
 	(no_connect
 		(at 185.42 96.52)
 		(uuid "70a51cf3-4536-40bf-bd25-dd720da8e87b")
+	)
+	(no_connect
+		(at 261.62 208.28)
+		(uuid "798922b1-73d8-43ed-aad5-16578b4a6fbc")
 	)
 	(no_connect
 		(at 185.42 215.9)
@@ -11660,16 +11648,6 @@
 			(type default)
 		)
 		(uuid "0fe3b8c1-33f2-43dd-bd6b-89ffa4206dab")
-	)
-	(wire
-		(pts
-			(xy 261.62 208.28) (xy 281.94 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119e7807-2dba-43a0-b6dd-9c3e7b2548ae")
 	)
 	(wire
 		(pts
@@ -13150,16 +13128,6 @@
 			(type default)
 		)
 		(uuid "613f05a2-30e3-4795-ba0a-4fd17f86c5f9")
-	)
-	(wire
-		(pts
-			(xy 261.62 205.74) (xy 281.94 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61488570-0cb8-4394-b7b2-98694537c45e")
 	)
 	(wire
 		(pts
@@ -16401,16 +16369,6 @@
 		)
 		(uuid "7f9dccc2-dde3-45f8-b4a1-b7145ad3d66a")
 	)
-	(label "USART2_TX"
-		(at 281.94 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f9820e6-173d-4c68-a8a4-2d9b001e6f37")
-	)
 	(label "USB_D+"
 		(at 281.94 93.98 180)
 		(effects
@@ -16540,16 +16498,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8f7d78a-eb06-41ed-aff4-a660b2913fbe")
-	)
-	(label "USART2_RX"
-		(at 281.94 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0c786e9-3576-47fa-ad73-0dadc490f40d")
 	)
 	(label "VSENS_IN"
 		(at 403.86 233.68 180)
@@ -25648,88 +25596,6 @@
 			(project "FIRM_v1.1"
 				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 287.02 208.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85d90545-b861-4162-bb84-d756e98e9dca")
-		(property "Reference" "J3"
-			(at 288.29 205.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FIRM2 Conn"
-			(at 288.29 208.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 287.02 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 287.02 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "38d31cb1-b974-4e41-a6e7-66ff2d9e6e57")
-		)
-		(pin "1"
-			(uuid "e3566dbc-1ec4-404d-8944-fc80b1e706d3")
-		)
-		(instances
-			(project "FIRM_v1.1"
-				(path "/d3f8a00a-ef65-439d-87f3-373a106a7ddb"
-					(reference "J3")
 					(unit 1)
 				)
 			)
