@@ -1,0 +1,234 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.5"
+    },
+    "CreationDate": "2026-11-09T16:14:48-05:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "FIRM_v1.1",
+      "GUID": "4649524d-5f76-4312-9e31-2e6b69636164",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 30.1,
+      "Y": 30.1
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 1.5468,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0762,
+      "PadToTrack": 0.0762,
+      "TrackToTrack": 0.0762,
+      "MinLineWidth": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.0762,
+      "MinLineWidth": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "FIRM_v1.1-F_SIG&GND.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-GND1.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-SIG_1.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-GND2.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-PWR.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-SIG_2.gbr",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-GND3.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-B_SIG&GND.gbr",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FIRM_v1.1-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "FIRM_v1.1-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "FIRM_v1.1-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.SIG&GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1164,
+      "Material": "FR4",
+      "Name": "F.SIG&GND/GND1",
+      "Notes": "Type: dielectric layer 1 (from F.SIG&GND to GND1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "FR4",
+      "Name": "GND1/SIG.1",
+      "Notes": "Type: dielectric layer 2 (from GND1 to SIG.1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "SIG.1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1164,
+      "Material": "FR4",
+      "Name": "SIG.1/GND2",
+      "Notes": "Type: dielectric layer 3 (from SIG.1 to GND2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "FR4",
+      "Name": "GND2/PWR",
+      "Notes": "Type: dielectric layer 4 (from GND2 to PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1164,
+      "Material": "FR4",
+      "Name": "PWR/SIG.2",
+      "Notes": "Type: dielectric layer 5 (from PWR to SIG.2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "SIG.2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "FR4",
+      "Name": "SIG.2/GND3",
+      "Notes": "Type: dielectric layer 6 (from SIG.2 to GND3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1164,
+      "Material": "FR4",
+      "Name": "GND3/B.SIG&GND",
+      "Notes": "Type: dielectric layer 7 (from GND3 to B.SIG&GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.SIG&GND"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

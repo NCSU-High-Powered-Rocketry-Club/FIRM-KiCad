@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -162,8 +167,8 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.1524,
         "min_track_width": 0.0762,
-        "min_via_annular_width": 0.0762,
-        "min_via_diameter": 0.32,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -246,6 +251,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -529,6 +538,19 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "name": "FIRM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "tuning_profile": "",
+        "via_diameter": 0.25,
+        "via_drill": 0.15
       }
     ],
     "meta": {

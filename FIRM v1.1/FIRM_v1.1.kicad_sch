@@ -9891,6 +9891,36 @@
 		)
 		(uuid "4a0bba34-79c2-47a0-90ff-0a1d97a30420")
 	)
+	(text "1U vdd usb "
+		(exclude_from_sim no)
+		(at 156.718 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39d3c95f-2fab-401e-8985-0be32933970d")
+	)
+	(text "4u7 bulk general"
+		(exclude_from_sim no)
+		(at 132.08 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "488d2f5d-3420-40d4-8239-b40b1cfd9eca")
+	)
+	(text "1U vdd a\n"
+		(exclude_from_sim no)
+		(at 156.718 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fc7fb75-678f-4e1a-bf75-8c4590b95006")
+	)
 	(text "INA219AIDCNR Voltage Sensor\n"
 		(exclude_from_sim no)
 		(at 402.59 141.732 0)
