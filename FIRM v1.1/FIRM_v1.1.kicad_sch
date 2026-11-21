@@ -30746,7 +30746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "HPRC_Connectors:1x6Connector"
 			(at 354.33 34.29 0)
 			(hide yes)
 			(show_name no)
