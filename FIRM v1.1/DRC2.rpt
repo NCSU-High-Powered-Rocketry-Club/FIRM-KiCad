@@ -1,0 +1,196 @@
+** Drc report for FIRM_v1.1.kicad_pcb **
+** Created on 2026-11-23T02:45:14 **
+** Report includes: Errors, Warnings **
+
+** Found 25 DRC violations **
+[annular_width]: Annular width (rule 'FIRM component hole annular ring - 5 mil radial' min annular width 0.1270 mm; actual 0.0000 mm)
+    Rule: FIRM component hole annular ring - 5 mil radial; error
+    @(183.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[annular_width]: Annular width (rule 'FIRM component hole annular ring - 5 mil radial' min annular width 0.1270 mm; actual 0.0000 mm)
+    Rule: FIRM component hole annular ring - 5 mil radial; error
+    @(188.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.7292 mm, 86.5920 mm): Track [/VSENS_OUT] on F.SIG&GND, length 2.1864 mm
+    @(177.2292 mm, 86.2009 mm): Pad 4 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(185.0258 mm, 77.1865 mm): Track [/IMUL_CS] on B.SIG&GND, length 2.9032 mm
+    @(185.0380 mm, 76.1128 mm): Pad 23 [/MOSI3] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(184.6267 mm, 77.1865 mm): Track [/IMUL_CS] on B.SIG&GND, length 0.3991 mm
+    @(185.0380 mm, 76.1128 mm): Pad 23 [/MOSI3] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(184.8245 mm, 90.8610 mm): Track [Net-(U6-PC9)] on B.SIG&GND, length 2.2790 mm
+    @(185.8380 mm, 88.4428 mm): Pad 1 [GND] of U11 on B.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(184.4835 mm, 77.5756 mm): Track [Net-(U6-PC10)] on F.SIG&GND, length 0.5435 mm
+    @(184.5818 mm, 78.3242 mm): Pad 5 [/QUADSPI_BK1_IO0] of U1 on F.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(185.4267 mm, 87.3691 mm): Track [GND] on B.SIG&GND, length 0.7774 mm
+    @(185.0380 mm, 88.4428 mm): Pad 2 [unconnected-(U11-N.C-Pad2)] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(177.4493 mm, 77.1865 mm): Track [GND] on B.SIG&GND, length 1.5774 mm
+    @(177.8380 mm, 76.1128 mm): Pad 14 [Net-(U11-VREGD)] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(177.4493 mm, 77.1865 mm): Track [GND] on B.SIG&GND, length 1.5774 mm
+    @(178.6380 mm, 76.1128 mm): Pad 15 [Net-(U11-VREGD)] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(180.6267 mm, 87.3691 mm): Track [GND] on B.SIG&GND, length 0.7774 mm
+    @(180.2380 mm, 88.4428 mm): Pad 8 [+3.3V] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(182.2267 mm, 87.3691 mm): Track [GND] on B.SIG&GND, length 0.7774 mm
+    @(181.8380 mm, 88.4428 mm): Pad 6 [Net-(U11-~{EXTRES})] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(179.0267 mm, 87.3691 mm): Track [GND] on B.SIG&GND, length 1.5774 mm
+    @(178.6380 mm, 88.4428 mm): Pad 10 [Net-(U11-VREGA)] of U11 on B.SIG&GND
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(179.0267 mm, 87.3691 mm): Track [GND] on B.SIG&GND, length 1.5774 mm
+    @(177.8380 mm, 88.4428 mm): Pad 11 [Net-(U11-VREGA)] of U11 on B.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.2292 mm, 86.2009 mm): Pad 2 [/VSENS_OUT] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.7292 mm, 86.2009 mm): Pad 3 [/VSENS_OUT] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.7292 mm, 84.2309 mm): Pad 6 [+3.3V] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.2292 mm, 84.2309 mm): Pad 7 [Net-(PS1-SW)] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(175.7292 mm, 84.2309 mm): Pad 8 [Net-(PS1-PG)] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(183.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(188.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[lib_footprint_mismatch]: Footprint '1x6Connector' does not match copy in library 'HPRC_Connectors'
+    Local override; warning
+    @(195.4864 mm, 93.4160 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'SOT-23-8' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(178.5646 mm, 92.8624 mm): Footprint U5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.1200 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(193.0934 mm, 77.1920 mm): Reference field of U8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.1000 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(186.4000 mm, 108.9000 mm): Reference field of U9
+
+** Found 20 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.6562 mm, 79.4536 mm): Track [+3.3V] on F.SIG&GND, length 0.3092 mm
+    @(177.1090 mm, 79.1444 mm): Track [+3.3V] on F.SIG&GND, length 1.4128 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.1006 mm, 90.1700 mm): Via [+3.3V] on F.SIG&GND - B.SIG&GND
+    @(177.4271 mm, 93.8374 mm): Track [+3.3V] on F.SIG&GND, length 1.2229 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2380 mm, 76.1128 mm): Pad 17 [+3.3V] of U11 on B.SIG&GND
+    @(181.0380 mm, 76.1128 mm): Pad 18 [+3.3V] of U11 on B.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2380 mm, 88.4428 mm): Via [+3.3V] on F.SIG&GND - B.SIG&GND
+    @(180.4396 mm, 87.7432 mm): Pad 2 [+3.3V] of R22 on F.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0380 mm, 76.1128 mm): Pad 18 [+3.3V] of U11 on B.SIG&GND
+    @(180.7718 mm, 77.1346 mm): Track [+3.3V] on F.SIG&GND, length 0.2441 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.4748 mm, 87.7316 mm): Pad 2 [+3.3V] of R23 on F.SIG&GND
+    @(183.6132 mm, 90.1714 mm): Via [+3.3V] on F.SIG&GND - B.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.1124 mm, 79.8296 mm): Pad 1 [+3.3V] of C22 on B.SIG&GND
+    @(188.0349 mm, 79.8524 mm): Pad 8 [+3.3V] of U4 on F.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(189.3254 mm, 80.9131 mm): Track [+3.3V] on F.SIG&GND, length 0.9601 mm
+    @(188.1124 mm, 79.8296 mm): Pad 1 [+3.3V] of C22 on B.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.5000 mm, 81.1276 mm): Track [+3.3V] on F.SIG&GND, length 0.7620 mm
+    @(190.7274 mm, 82.5742 mm): Track [+3.3V] on B.SIG&GND, length 0.2268 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.7865 mm, 80.6581 mm): Track [+3.3V] on B.SIG&GND, length 0.3256 mm
+    @(195.2752 mm, 80.7212 mm): Track [+3.3V] on F.SIG&GND, length 0.0364 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(176.6578 mm, 91.9226 mm): Track [GND] on B.SIG&GND, length 2.1314 mm
+    @(175.8942 mm, 93.1874 mm): Track [GND] on F.SIG&GND, length 0.0311 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.8948 mm, 95.2360 mm): Track [GND] on B.SIG&GND, length 0.4230 mm
+    @(177.3948 mm, 95.2360 mm): Track [GND] on B.SIG&GND, length 0.3390 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.0267 mm, 77.1865 mm): Track [GND] on B.SIG&GND, length 0.5817 mm
+    @(179.9844 mm, 76.9620 mm): Track [GND] on F.SIG&GND, length 1.3996 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7021 mm, 91.8874 mm): Track [GND] on F.SIG&GND, length 0.6500 mm
+    @(180.9852 mm, 91.0844 mm): Track [GND] on B.SIG&GND, length 0.2616 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7021 mm, 91.8874 mm): Track [GND] on F.SIG&GND, length 0.6500 mm
+    @(180.3934 mm, 94.8996 mm): Track [GND] on B.SIG&GND, length 1.1209 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0380 mm, 88.4428 mm): Track [GND] on B.SIG&GND, length 0.6624 mm
+    @(180.9852 mm, 90.8228 mm): Track [GND] on B.SIG&GND, length 0.9232 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.4548 mm, 90.1700 mm): Pad 2 [GND] of C59 on B.SIG&GND
+    @(185.2132 mm, 90.1714 mm): Pad J1 [GND] of U6 on F.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.2132 mm, 90.1714 mm): Pad J1 [GND] of U6 on F.SIG&GND
+    @(186.9482 mm, 90.1714 mm): Pad 2 [GND] of C45 on B.SIG&GND
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(189.3376 mm, 97.2254 mm): Track [GND] on B.SIG&GND, length 0.9674 mm
+    @(188.2254 mm, 96.5672 mm): Track [GND] on B.SIG&GND, length 0.7546 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.5832 mm, 80.4488 mm): Track [GND] on F.SIG&GND, length 1.5006 mm
+    @(190.7804 mm, 78.9422 mm): PTH pad 1 [GND] of H3
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Text height out of range
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

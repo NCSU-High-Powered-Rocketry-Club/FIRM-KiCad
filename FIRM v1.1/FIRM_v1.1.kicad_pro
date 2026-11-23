@@ -213,6 +213,7 @@
       ],
       "track_widths": [
         0.0,
+        0.125,
         0.2
       ],
       "tuning_pattern_settings": {
@@ -512,7 +513,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.0762,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -523,11 +524,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0762,
+        "track_width": 0.125,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.125,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.66,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -539,7 +555,28 @@
       "Net-(U6-PC12)": "rgb(255, 0, 0)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VSENS_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VSENS_OUT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J2-Pin_1)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

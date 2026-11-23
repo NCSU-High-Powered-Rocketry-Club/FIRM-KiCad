@@ -11190,6 +11190,10 @@
 		(uuid "ab6afe28-0dd6-4692-b5fd-e01c9c37d5a2")
 	)
 	(no_connect
+		(at 261.62 208.28)
+		(uuid "b216d62c-c588-4532-943a-80df1e074ec7")
+	)
+	(no_connect
 		(at 261.62 218.44)
 		(uuid "b372525f-8c1f-4759-bdc2-aaab548967c6")
 	)
@@ -11244,6 +11248,10 @@
 	(no_connect
 		(at 261.62 165.1)
 		(uuid "e9841e82-bed9-4f29-9942-7311bcf0336e")
+	)
+	(no_connect
+		(at 261.62 205.74)
+		(uuid "e9a792f7-3ebe-4750-b039-ad04957943d8")
 	)
 	(no_connect
 		(at 455.93 160.02)

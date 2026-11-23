@@ -1,0 +1,62 @@
+** Drc report for FIRM_v1.1.kicad_pcb **
+** Created on 2026-11-23T03:12:14 **
+** Report includes: Errors, Warnings **
+
+** Found 11 DRC violations **
+[annular_width]: Annular width (rule 'FIRM component hole annular ring - 5 mil radial' min annular width 0.1270 mm; actual 0.0000 mm)
+    Rule: FIRM component hole annular ring - 5 mil radial; error
+    @(183.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[annular_width]: Annular width (rule 'FIRM component hole annular ring - 5 mil radial' min annular width 0.1270 mm; actual 0.0000 mm)
+    Rule: FIRM component hole annular ring - 5 mil radial; error
+    @(188.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.2292 mm, 86.2009 mm): Pad 2 [/VSENS_OUT] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.7292 mm, 86.2009 mm): Pad 3 [/VSENS_OUT] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.7292 mm, 84.2309 mm): Pad 6 [+3.3V] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.2292 mm, 84.2309 mm): Pad 7 [Net-(PS1-SW)] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(175.7292 mm, 84.2309 mm): Pad 8 [Net-(PS1-PG)] of PS1 on F.SIG&GND
+    @(176.4792 mm, 85.2159 mm): Pad 9 [GND] of PS1 on F.SIG&GND
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(183.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(188.9000 mm, 105.4000 mm): PTH pad [<no net>] of U9
+[lib_footprint_mismatch]: Footprint '1x6Connector' does not match copy in library 'HPRC_Connectors'
+    Local override; warning
+    @(195.4864 mm, 93.4160 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'SOT-23-8' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(178.5646 mm, 92.8624 mm): Footprint U5
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Text height out of range
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
